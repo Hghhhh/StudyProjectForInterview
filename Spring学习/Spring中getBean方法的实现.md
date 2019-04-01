@@ -418,4 +418,4 @@ https://www.cnblogs.com/leeSmall/p/10228771.html
 
 最后总结如下图：
 
-![](https://3116004636-1256103796.cos.ap-guangzhou.myqcloud.com/spring/getbean.png)
+![getbean](https://3116004636-1256103796.cos.ap-guangzhou.myqcloud.com/spring/getbean.png)

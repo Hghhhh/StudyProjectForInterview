@@ -540,4 +540,4 @@ public interface LifecycleProcessor extends Lifecycle {
 
 (图片来自博客[框架源码系列八：Spring源码学习之Spring核心工作原理](https://www.cnblogs.com/leeSmall/p/10188408.html))
 
-![](https://3116004636-1256103796.cos.ap-guangzhou.myqcloud.com/spring/refresh%E8%BF%87%E7%A8%8B.png)
+![refresh](https://3116004636-1256103796.cos.ap-guangzhou.myqcloud.com/spring/refresh%E8%BF%87%E7%A8%8B.png)
