@@ -223,4 +223,4 @@ $ git check-ignore -v hello.txt
 
 
 
-这个一篇[廖雪峰Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)的笔记，这个教程写的非常好，简单易懂！
+这是一篇[廖雪峰Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)的笔记，这个教程写的非常好，简单易懂！
