@@ -134,7 +134,7 @@ public static ConfigurableApplicationContext run(Class<?>[] primarySources,
 
 创建SpringApplication做了下面这些事情：
 
-1、配置sourc e
+1、配置source
 
 2、判断是否是web程序（通过判断类加载器是否能加载到一些Spring的web类）
 

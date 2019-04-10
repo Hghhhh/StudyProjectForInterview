@@ -114,7 +114,7 @@ Lock lock=new ReentrantLock(false);//非公平锁
 - isLock()此锁是否有任意线程占用
 - lockInterruptibly（）如果当前线程未被中断，获取锁
 - tryLock（）尝试获得锁，仅在调用时锁未被线程占用，获得锁
-- tryLock(long timeout TimeUnit unit)如果锁在给定等待时间内没有被另一个线程保持，则获取该锁
+- tryLock(long timeout ，TimeUnit unit)如果锁在给定等待时间内没有被另一个线程保持，则获取该锁
 
 ## tryLock和lock和lockInterruptibly的区别
 

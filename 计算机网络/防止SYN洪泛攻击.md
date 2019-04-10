@@ -17,10 +17,43 @@ TCP SYN[泛洪](https://baike.baidu.com/item/%E6%B3%9B%E6%B4%AA)发生在OSI第�
 ```java
 net.ipv4.tcp_synack_retries = 0 #默认值是5
 对于远端的连接请求SYN，内核会发送SYN ＋ ACK数据报，以确认收到上一个 SYN连接请求包。这是所谓的三次握手( threeway handshake)机制的第二个步骤。这里决定内核在放弃连接之前所送出的 SYN+ACK 数目。不应该大于255，默认值是5，对应于180秒左右时间。(可以根据上面的tcp_syn_retries来决定这个值)
+    
+加大tcp_max_syn_backlog的值
+#是指定所能接受SYN同步包的最大客户端数量，即半连接上限；    
 ```
+
+
+
+## 补充：
+
+四次挥手的时候出现大量CLOSE_WAIT怎么办？
+
+CLOSE_WAIT过多则可能是被动关闭的一方存在代码BUG,没有正确关闭连接导致的，检查下应用程序的代码
+
+四次挥手的时候出现大量TIME_WAIT怎么办？
+
+解决TIME_WAIT过多,可通过开启Linux的tcp参数`tcp_tw_reuse`或`tcp_tw_recycle`能加快TIME_WAIT状态的回收.
+
+```java
+tcp_tw_recycle ：BOOLEAN
+默认值是0
+打开快速 TIME-WAIT sockets 回收。
+
+tcp_tw_reuse：BOOLEAN
+默认值是0
+该文件表示是否允许重新应用处于TIME-WAIT状态的socket用于新的TCP连接(这个对快速重启动某些服务,而启动后提示端口已经被使用的情形非常有帮助)
+
+```
+
+
+
+
 
 更多配置信息可以看下面的文章：
 
 [linux中的一些TCP配置来防止syn泛洪攻击](https://www.jb51.net/article/114073.htm)
 
 [linux中一些TCP配置](https://blog.csdn.net/iteye_11158/article/details/81925517)
+
+
+
