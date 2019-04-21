@@ -243,13 +243,13 @@ public void refresh() throws BeansException, IllegalStateException {
 
 ##4.postProcessBeanFactory(beanFactory)
 
-这个方法在应用程序上下文的标准初始化之后为前面的BeanFactory注册BeanPostProcessor。这时候所有bean定义都将被加载，但还没有实例化bean。这允许在某些应用程序上下文中注册特殊的BeanPostProcessor。
+这个方法在应用程序上下文的标准初始化之后为前面的BeanFactory注册BeanPostProcessor。这时候所有bean定义都将被加载，但还没有实例化bean。这允许对BeanFactory进行后置处理。
 
 这个方法是一个模板方法，具体由子类去实现它。
 
 ## 5.invokeBeanFactoryPostProcessors(beanFactory)
 
-在实例化bean之前调用BeanFactoryPostProcessor的invokeBeanFactoryPostProcessors(beanFactory);对beanFactory进行一些处理。**这是一个很重要的扩展点，如果你想在Bean实例化前对BeanFactory进行处理的话，你就可以实现BeanFactoryPostProcessor接口。**
+在实例化bean之前调用BeanFactoryPostProcessor的invokeBeanFactoryPostProcessors(beanFactory);对beanFactory进行一些处理。**这是一个很重要的扩展点，如果你想在Bean实例化前对BeanFactory进行处理的话，比如Springboot使用BeanFactoryPostProcessor进行注解Bean的解析，并注册到beanfactory，你就可以实现BeanFactoryPostProcessor接口。**
 
 ```java
 	/**

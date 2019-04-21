@@ -1,0 +1,15 @@
+Connection是RabbitMQ的socket链接，它封装了socket协议相关部分逻辑。
+
+ConnectionFactory如名称，是客户端与broker的tcp连接工厂，负责根据uri创建Connection。
+
+Channel是我们与RabbitMQ打交道的最重要的一个接口，我们大部分的业务操作是在Channel这个接口中完成的，包括定义Queue、定义Exchange、绑定Queue与Exchange、发布消息等。如果每一次访问RabbitMQ都建立一个Connection，在消息量大的时候建立TCP Connection的开销将是巨大的，效率也较低。Channel是在connection内部建立的逻辑连接，如果应用程序支持多线程，通常每个thread创建单独的channel进行通讯，AMQP method包含了channel id帮助客户端和message broker识别channel，所以channel之间是完全隔离的。Channel作为轻量级的Connection极大减少了操作系统建立TCP connection的开销
+
+
+
+作者：onedoc
+
+链接：https://www.jianshu.com/p/518a504fe2cc
+
+来源：简书
+
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。

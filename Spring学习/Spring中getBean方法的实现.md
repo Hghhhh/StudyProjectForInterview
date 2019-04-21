@@ -115,7 +115,6 @@ public void refresh() throws BeansException, IllegalStateException {
             //这个方法触发了refreshBeanFactory()
             ConfigurableListableBeanFactory beanFactory = this.obtainFreshBeanFactory();
             this.prepareBeanFactory(beanFactory);
-
             try {
                 this.postProcessBeanFactory(beanFactory);
                 this.invokeBeanFactoryPostProcessors(beanFactory);
@@ -152,12 +151,11 @@ protected final void refreshBeanFactory() throws BeansException {
             this.destroyBeans();
             this.closeBeanFactory();
         }
-
         try {
             DefaultListableBeanFactory beanFactory = this.createBeanFactory();
             beanFactory.setSerializationId(this.getId());
             this.customizeBeanFactory(beanFactory);
-            //这个方法完成了Ressource的定位和BeanDefinition的载入
+            //这个方法完成了Resource的定位和BeanDefinition的载入
             this.loadBeanDefinitions(beanFactory);
             Object var2 = this.beanFactoryMonitor;
             synchronized(this.beanFactoryMonitor) {
@@ -182,18 +180,15 @@ protected void loadBeanDefinitions(DefaultListableBeanFactory beanFactory) throw
 
 
 protected void loadBeanDefinitions(XmlBeanDefinitionReader reader) throws BeansException, IOException {
-    
         Resource[] configResources = this.getConfigResources();
         if (configResources != null) {
             //由Reader去获取Resource
             reader.loadBeanDefinitions(configResources);
         }
-
         String[] configLocations = this.getConfigLocations();
         if (configLocations != null) {
             reader.loadBeanDefinitions(configLocations);
         }
-
     }
 
 ```
@@ -416,6 +411,6 @@ getBean()->doGetBean()->createBean()->instantiate()->populateBean->applyProperty
 
 https://www.cnblogs.com/leeSmall/p/10228771.html
 
-最后总结如下图：
+getBean的过程：
 
 ![getbean](https://3116004636-1256103796.cos.ap-guangzhou.myqcloud.com/spring/getbean.png)

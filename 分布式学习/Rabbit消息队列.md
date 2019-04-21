@@ -237,9 +237,11 @@ public class RabbitMqHelloTest {
 
 在生产环境中，我们需要考虑万一生产者挂了，消费者挂了，或者 rabbitmq 挂了怎么样。一般来说，如果生产者挂了或者消费者挂了，其实是没有影响，因为消息就在队列里面。那么万一 rabbitmq 挂了，之前在队列里面的消息怎么办，其实可以做消息持久化，RabbitMQ 会把信息保存在磁盘上。
 
-做法是可以先从 Connection 对象中拿到一个 Channel 信道对象，然后再可以通过该对象设置 消息持久化。
+做法是可以先从 Connection 对象中拿到一个 Channel 信道对象，然后再可以通过该对象设置消息持久化。
 
-参考：[Redis持久化机制](https://blog.csdn.net/u013256816/article/details/60875666/)
+
+
+参考：[RabbitMq持久化机制](https://blog.csdn.net/u013256816/article/details/60875666/)
 
 ###生产者或者消费者断线重连
 

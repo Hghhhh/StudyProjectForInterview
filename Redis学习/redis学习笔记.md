@@ -47,25 +47,26 @@ value最大为512M
 - 计数器
 - 分布式锁
 
-| API                               | 解释                                       |
-| --------------------------------- | ------------------------------------------ |
-| get key                           | 获取key对应的value                         |
-| set key value                     | 设置key-value，不管key存不存在都设置       |
-| del key                           | 删除key-value                              |
-| incr key                          | key的值自增1                               |
-| decr key                          | key的值自减1                               |
-| incrby key k                      | key的值自增k（k为整数）                    |
-| decrby key k                      | key的值自减k                               |
-| incrbyfloat key k                 | k可以为浮点数，负数（故没有decrbyfloat）   |
-| setnx key value                   | key不存在才设置                            |
-| set key value xx                  | key存在才设置                              |
-| mget key1 key2 key3 ..            | 批量获取key                                |
-| mset key1 values1 key2 value2 ... | 批量设置key-value                          |
-| getset key newvalue               | 设置新值并返回旧值,没有旧值返回1           |
-| append key value                  | 将value追加到旧value后                     |
-| strlen key                        | 返回字符串的长度，key不存在返回0，注意中文 |
-| getrange key start end            | 获取字符串指定下标的所有值                 |
-| setrange key index value          | 设置指定下标的所有对应的值                 |
+| API                               | 解释                                                         |
+| --------------------------------- | ------------------------------------------------------------ |
+| get key                           | 获取key对应的value                                           |
+| set key value                     | 设置key-value，不管key存不存在都设置                         |
+| del key                           | 删除key-value                                                |
+| incr key                          | key的值自增1                                                 |
+| decr key                          | key的值自减1                                                 |
+| incrby key k                      | key的值自增k（k为整数）                                      |
+| decrby key k                      | key的值自减k                                                 |
+| incrbyfloat key k                 | k可以为浮点数，负数（故没有decrbyfloat）                     |
+| setnx key value                   | key不存在才设置                                              |
+| **SETEX key seconds value**       | 将值 `value` 关联到 `key` ，并将 `key` 的生存时间设为 `seconds` (以秒为单位)。 |
+| set key value xx                  | 如果 `key` 已经存在， [SETEX](http://doc.redisfans.com/string/setex.html#setex) 命令将覆写旧值。key存在才设置 |
+| mget key1 key2 key3 ..            | 批量获取key                                                  |
+| mset key1 values1 key2 value2 ... | 批量设置key-value                                            |
+| getset key newvalue               | 设置新值并返回旧值,没有旧值返回1                             |
+| append key value                  | 将value追加到旧value后                                       |
+| strlen key                        | 返回字符串的长度，key不存在返回0，注意中文                   |
+| getrange key start end            | 获取字符串指定下标的所有值                                   |
+| setrange key index value          | 设置指定下标的所有对应的值                                   |
 
 实战：
 
