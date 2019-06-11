@@ -107,9 +107,7 @@ Realm：Shiro连接数据的桥梁
 
 ​	
 
-### 4.2.2.   自定义Realm类
-
-   **package** com.itheima.shiro;       **import**   org.apache.shiro.authc.AuthenticationException;   **import**   org.apache.shiro.authc.AuthenticationInfo;   **import**   org.apache.shiro.authc.AuthenticationToken;   **import**   org.apache.shiro.authz.AuthorizationInfo;   **import**   org.apache.shiro.realm.AuthorizingRealm;   **import**   org.apache.shiro.subject.PrincipalCollection;       /**    * 自定义Realm    * **@author** lenovo    *    */   **public** **class** UserRealm **extends** AuthorizingRealm{           /**        * 执行授权逻辑        */       @Override       **protected** AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection arg0) {            System.**out**.println("执行授权逻辑");            **return** **null**;       }           /**        * 执行认证逻辑        */       @Override       **protected** AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken arg0) **throws** AuthenticationException {            System.**out**.println("执行认证逻辑");            **return** **null**;       }       }       
+### 4.2.2.   自定义Realm类  
 
 ```java
 package com.itheima.shiro;
@@ -148,8 +146,6 @@ public class UserRealm extends AuthorizingRealm{
  
 
 ### 4.2.3.   编写Shiro配置类（*）
-
-   **package** com.itheima.shiro;       **import**   org.apache.shiro.spring.web.ShiroFilterFactoryBean;   **import**   org.apache.shiro.web.mgt.DefaultWebSecurityManager;   **import**   org.springframework.beans.factory.annotation.Qualifier;   **import**   org.springframework.context.annotation.Bean;   **import** org.springframework.context.annotation.Configuration;       /**    * Shiro的配置类    * **@author** lenovo    *    */   @Configuration   **public** **class** ShiroConfig {           /**        * 创建ShiroFilterFactoryBean        */       @Bean       **public** ShiroFilterFactoryBean getShiroFilterFactoryBean(@Qualifier("securityManager")DefaultWebSecurityManager securityManager){            ShiroFilterFactoryBean   shiroFilterFactoryBean = **new** ShiroFilterFactoryBean();                        //设置安全管理器            shiroFilterFactoryBean.setSecurityManager(securityManager);                        **return** shiroFilterFactoryBean;       }              /**        * 创建DefaultWebSecurityManager        */       @Bean(name="securityManager")       **public** DefaultWebSecurityManager getDefaultWebSecurityManager(@Qualifier("userRealm")UserRealm userRealm){            DefaultWebSecurityManager   securityManager = **new** DefaultWebSecurityManager();            //关联realm            securityManager.setRealm(userRealm);            **return** securityManager;       }              /**        * 创建Realm        */       @Bean(name="userRealm")       **public** UserRealm getRealm(){            **return** **new** UserRealm();       }   }       
 
 ```java
 package com.itheima.shiro;
@@ -206,8 +202,6 @@ public class ShiroConfig {
 
 
 ## 4.3. 使用Shiro内置过滤器实现页面拦截
-
-   **package** com.itheima.shiro;       **import** java.util.LinkedHashMap;   **import** java.util.Map;       **import**   org.apache.shiro.spring.web.ShiroFilterFactoryBean;   **import**   org.apache.shiro.web.mgt.DefaultWebSecurityManager;   **import**   org.springframework.beans.factory.annotation.Qualifier;   **import** org.springframework.context.annotation.Bean;   **import**   org.springframework.context.annotation.Configuration;       /**    * Shiro的配置类    * **@author** lenovo    *    */   @Configuration   **public** **class** ShiroConfig {           /**        * 创建ShiroFilterFactoryBean        */       @Bean       **public** ShiroFilterFactoryBean getShiroFilterFactoryBean(@Qualifier("securityManager")DefaultWebSecurityManager securityManager){            ShiroFilterFactoryBean   shiroFilterFactoryBean = **new** ShiroFilterFactoryBean();                        //设置安全管理器            shiroFilterFactoryBean.setSecurityManager(securityManager);                       //添加Shiro内置过滤器            /**             * Shiro内置过滤器，可以实现权限相关的拦截器             *    常用的过滤器：             *         anon: 无需认证（登录）可以访问             *         authc: 必须认证才可以访问             *         user: 如果使用rememberMe的功能可以直接访问             *         perms： 该资源必须得到资源权限才可以访问             *         role: 该资源必须得到角色权限才可以访问             */            Map<String,String> filterMap = **new**   LinkedHashMap<String,String>();            /*filterMap.put("/add",   "authc");            filterMap.put("/update",   "authc");*/                        filterMap.put("/testThymeleaf", "anon");                        filterMap.put("/*", "authc");                        //修改调整的登录页面            shiroFilterFactoryBean.setLoginUrl("/toLogin");                        shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);                                    **return** shiroFilterFactoryBean;       }              /**        * 创建DefaultWebSecurityManager        */       @Bean(name="securityManager")       **public** DefaultWebSecurityManager getDefaultWebSecurityManager(@Qualifier("userRealm")UserRealm userRealm){            DefaultWebSecurityManager   securityManager = **new** DefaultWebSecurityManager();            //关联realm            securityManager.setRealm(userRealm);            **return** securityManager;       }              /**        * 创建Realm        */       @Bean(name="userRealm")       **public** UserRealm getRealm(){            **return** **new** UserRealm();       }   }       
 
 ```java
 package com.itheima.shiro;
@@ -294,8 +288,6 @@ public class ShiroConfig {
 
 ### 4.4.2.   编写Controller的登录逻辑
 
-​           /**        * 登录逻辑处理        */       @RequestMapping("/login")       **public** String login(String name,String   password,Model model){                        /**             * 使用Shiro编写认证操作             */            //1.获取Subject            Subject subject = SecurityUtils.*getSubject*();                        //2.封装用户数据            UsernamePasswordToken   token = **new** UsernamePasswordToken(name,password);                        //3.执行登录方法            **try** {                subject.login(token);                                //登录成功                //跳转到test.html                **return** "redirect:/testThymeleaf";            } **catch** (UnknownAccountException e) {                //e.printStackTrace();                //登录失败:用户名不存在                model.addAttribute("msg", "用户名不存在");                **return** "login";            }**catch** (IncorrectCredentialsException e) {                //e.printStackTrace();                //登录失败:密码错误                model.addAttribute("msg", "密码错误");                **return** "login";            }       }   
-
 ```java
 /**
 	 * 登录逻辑处理
@@ -331,9 +323,7 @@ public class ShiroConfig {
 
 
 
-### 4.4.3.   编写Realm的判断逻辑
-
-   **package** com.itheima.shiro;       **import**   org.apache.shiro.authc.AuthenticationException;   **import**   org.apache.shiro.authc.AuthenticationInfo;   **import**   org.apache.shiro.authc.AuthenticationToken;   **import**   org.apache.shiro.authc.SimpleAuthenticationInfo;   **import**   org.apache.shiro.authc.UsernamePasswordToken;   **import**   org.apache.shiro.authz.AuthorizationInfo;   **import**   org.apache.shiro.realm.AuthorizingRealm;   **import**   org.apache.shiro.subject.PrincipalCollection;       /**    * 自定义Realm    * **@author** lenovo    *    */   **public** **class** UserRealm **extends** AuthorizingRealm{           /**        * 执行授权逻辑        */       @Override       **protected** AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection arg0) {            System.**out**.println("执行授权逻辑");            **return** **null**;       }           /**        * 执行认证逻辑        */       @Override       **protected** AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken arg0) **throws** AuthenticationException {            System.**out**.println("执行认证逻辑");                        //假设数据库的用户名和密码            String name = "eric";            String password = "123456";                        //编写shiro判断逻辑，判断用户名和密码            //1.判断用户名            UsernamePasswordToken   token = (UsernamePasswordToken)arg0;            **if**(!token.getUsername().equals(name)){                //用户名不存在                **return** **null**;//shiro底层会抛出UnKnowAccountException            }                        //2.判断密码            **return** **new** SimpleAuthenticationInfo("",password,"");       }       }       
+### 4.4.3.   编写Realm的判断逻辑 
 
 ```java
 /**
@@ -383,8 +373,6 @@ public class UserRealm extends AuthorizingRealm{
 
 ### 4.5.1.   导入mybatis相关的依赖
 
-   <!-- 导入mybatis相关的依赖   -->            <dependency>                <groupId>com.alibaba</groupId>                <artifactId>druid</artifactId>                <version>1.0.9</version>            </dependency>            <!-- mysql -->            <dependency>                <groupId>mysql</groupId>                <artifactId>mysql-connector-java</artifactId>            </dependency>            <!-- SpringBoot的Mybatis启动器 -->            <dependency>                <groupId>org.mybatis.spring.boot</groupId>                <artifactId>mybatis-spring-boot-starter</artifactId>                <version>1.1.1</version>            </dependency>   
-
 ```maven
 <dependency>
 			<groupId>com.alibaba</groupId>
@@ -410,8 +398,6 @@ public class UserRealm extends AuthorizingRealm{
 ### 4.5.2.   配置application.properties
 
 位置：src/main/resources目录下
-
-   spring.datasource.driverClassName=com.mysql.jdbc.Driver   spring.datasource.url=jdbc:mysql://localhost:3306/test   spring.datasource.username=root   spring.datasource.password=root       spring.datasource.type=com.alibaba.druid.pool.DruidDataSource       mybatis.type-aliases-package=com.itheima.domain   
 
  ```properties
 spring.datasource.driverClassName=com.mysql.jdbc.Driver
@@ -627,7 +613,7 @@ public class UserRealm extends AuthorizingRealm{
 
 ## 5.1. 使用Shiro内置过滤器拦截资源
 
-   /**        * 创建ShiroFilterFactoryBean        */       @Bean       **public** ShiroFilterFactoryBean getShiroFilterFactoryBean(@Qualifier("securityManager")DefaultWebSecurityManager securityManager){            ShiroFilterFactoryBean   shiroFilterFactoryBean = **new** ShiroFilterFactoryBean();                        //设置安全管理器            shiroFilterFactoryBean.setSecurityManager(securityManager);                        //添加Shiro内置过滤器            /**             * Shiro内置过滤器，可以实现权限相关的拦截器             *    常用的过滤器：             *         anon: 无需认证（登录）可以访问             *         authc: 必须认证才可以访问             *         user: 如果使用rememberMe的功能可以直接访问             *         perms： 该资源必须得到资源权限才可以访问             *         role: 该资源必须得到角色权限才可以访问             */            Map<String,String>   filterMap = **new**   LinkedHashMap<String,String>();            /*filterMap.put("/add",   "authc");            filterMap.put("/update",   "authc");*/                        filterMap.put("/testThymeleaf", "anon");            //放行login.html页面            filterMap.put("/login", "anon");                        //授权过滤器            //注意：当前授权拦截后，shiro会自动跳转到未授权页面            filterMap.put("/add", "perms[user:add]");                        filterMap.put("/*", "authc");                        //修改调整的登录页面            shiroFilterFactoryBean.setLoginUrl("/toLogin");            //设置未授权提示页面            shiroFilterFactoryBean.setUnauthorizedUrl("/noAuth");                        shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);                                    **return** shiroFilterFactoryBean;       }   
+
 
 ```java
 /**

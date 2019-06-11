@@ -599,7 +599,7 @@ filterChainManager.addFilter( "jwtPerms", new JwtPermFilter()）;
 
 
 
-## 项目推荐：功能强大的jsets-shiro-spring-boot-starter
+## 项目推荐：jsets-shiro-spring-boot-starter
 
 github地址：[jsets-shiro-spring-boot-starter](https://github.com/wj596/jsets-shiro-spring-boot-starter)
 
