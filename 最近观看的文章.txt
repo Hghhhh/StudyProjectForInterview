@@ -331,3 +331,5 @@ MD5加密+加盐
 SpringBoot+Shiro实现登陆拦截功能 https://www.cnblogs.com/peaceliu/p/7825706.html
 
 使用redis的list结构实现秒杀 https://my.oschina.net/chinaxy/blog/1829233
+
+springboot + swagger https://www.ibm.com/developerworks/cn/java/j-using-swagger-in-a-spring-boot-project/index.html
