@@ -1,331 +1,333 @@
 
-ÄÚºËÌ¬ºÍÓÃ»§Ì¬£ºhttps://www.cnblogs.com/shangxiaofei/p/5567776.html¡¢https://www.cnblogs.com/shangxiaofei/p/5567776.html
-ÄÚºËÌ¬¿ÉÒÔ·ÃÎÊÄÚ´æËùÓĞÊı¾İ£¬°üÀ¨½ø³Ì¹ÜÀí¡¢´æ´¢¹ÜÀí¡¢ÎÄ¼ş¹ÜÀí¡¢Éè±¸¹ÜÀí
-ÓÃ»§Ì¬Ö»ÄÜÊÜÏŞµÄ·ÃÎÊÄÚ´æ, ÇÒ²»ÔÊĞí·ÃÎÊÍâÎ§Éè±¸. Õ¼ÓÃCPUµÄÄÜÁ¦±»°ş¶á, CPU×ÊÔ´¿ÉÒÔ±»ÆäËû³ÌĞò»ñÈ¡
-ÎªÊ²Ã´»®·ÖÓÃ»§Ì¬ÄÚºËÌ¬£º·ÀÖ¹ÓÃ»§³ÌĞò¶ñÒâÆÆ»µÏµÍ³
+å†…æ ¸æ€å’Œç”¨æˆ·æ€ï¼šhttps://www.cnblogs.com/shangxiaofei/p/5567776.htmlã€https://www.cnblogs.com/shangxiaofei/p/5567776.html
+å†…æ ¸æ€å¯ä»¥è®¿é—®å†…å­˜æ‰€æœ‰æ•°æ®ï¼ŒåŒ…æ‹¬è¿›ç¨‹ç®¡ç†ã€å­˜å‚¨ç®¡ç†ã€æ–‡ä»¶ç®¡ç†ã€è®¾å¤‡ç®¡ç†
+ç”¨æˆ·æ€åªèƒ½å—é™çš„è®¿é—®å†…å­˜, ä¸”ä¸å…è®¸è®¿é—®å¤–å›´è®¾å¤‡. å ç”¨CPUçš„èƒ½åŠ›è¢«å‰¥å¤º, CPUèµ„æºå¯ä»¥è¢«å…¶ä»–ç¨‹åºè·å–
+ä¸ºä»€ä¹ˆåˆ’åˆ†ç”¨æˆ·æ€å†…æ ¸æ€ï¼šé˜²æ­¢ç”¨æˆ·ç¨‹åºæ¶æ„ç ´åç³»ç»Ÿ
 
-UnsafeÀàÓ¦ÓÃ½âÎö£ºhttps://www.cnblogs.com/shangxiaofei/p/10489485.html
+Unsafeç±»åº”ç”¨è§£æï¼šhttps://www.cnblogs.com/shangxiaofei/p/10489485.html
 
-mybatisµÄ»º´æ»úÖÆ£ºhttps://www.cnblogs.com/ysocean/p/7342498.html
+mybatisçš„ç¼“å­˜æœºåˆ¶ï¼šhttps://www.cnblogs.com/ysocean/p/7342498.html
 
-LinuxÖĞµÄTCPÅäÖÃ£ºhttps://blog.csdn.net/iteye_11158/article/details/81925517¡¢
+Linuxä¸­çš„TCPé…ç½®ï¼šhttps://blog.csdn.net/iteye_11158/article/details/81925517ã€
 https://www.jb51.net/article/114073.htm
 
-tcpÕ³°ü
+tcpç²˜åŒ…
 
-DHCPĞ­Òé£¨¾ÖÓòÍøÓÃÀ´Ö÷»úÓÃÀ´»ñµÃipµØÖ·µÄ£¬discover¡¢offer¡¢request¡¢ack£©  https://www.cnblogs.com/myworld7/p/8413659.html
+DHCPåè®®ï¼ˆå±€åŸŸç½‘ç”¨æ¥ä¸»æœºç”¨æ¥è·å¾—ipåœ°å€çš„ï¼Œdiscoverã€offerã€requestã€ackï¼‰  https://www.cnblogs.com/myworld7/p/8413659.html
 
-AQSÔ´Âë·ÖÎö https://www.cnblogs.com/waterystone/p/4920797.html
+AQSæºç åˆ†æ https://www.cnblogs.com/waterystone/p/4920797.html
 
-ReentrantLock¶ÁĞ´Ëø½µ¼¶https://blog.csdn.net/qq_29842929/article/details/81188824
+ReentrantLockè¯»å†™é”é™çº§https://blog.csdn.net/qq_29842929/article/details/81188824
 
 LockSupport https://www.cnblogs.com/qingquanzi/p/8228422.html
 
 
-ÃÀÍÅ¶ÔÓÚRedis RehashµÄÌ½Ë÷£ºhttps://www.cnblogs.com/meituantech/p/9376472.html
-Redis×ÖµäµÄrehashÔ´Âë·ÖÎöµÄhttps://www.cnblogs.com/chinajava/p/5808416.html
-£¨rehashµÄÊ±ºòÍ¨¹ırehashidxÀ´±ê¼Çrehashµ½µÄÍ°µÄÏÂ±ê£¬ÏÂ´Î½øĞĞÔö/É¾/²é/¸ÄµÄÊ±ºò¶¼»á°ÑrehashidxÍ°ÖĞµÄÃ¿¸ö½Úµãrehashµ½ht[1]£¬
-¿ÉÒÔÈ·¶¨µÄÊÇ£¬rehashÍê³ÉÖ®ºó£¬£©
+ç¾å›¢å¯¹äºRedis Rehashçš„æ¢ç´¢ï¼šhttps://www.cnblogs.com/meituantech/p/9376472.html
+Rediså­—å…¸çš„rehashæºç åˆ†æçš„https://www.cnblogs.com/chinajava/p/5808416.html
+ï¼ˆrehashçš„æ—¶å€™é€šè¿‡rehashidxæ¥æ ‡è®°rehashåˆ°çš„æ¡¶çš„ä¸‹æ ‡ï¼Œä¸‹æ¬¡è¿›è¡Œå¢/åˆ /æŸ¥/æ”¹çš„æ—¶å€™éƒ½ä¼šæŠŠrehashidxæ¡¶ä¸­çš„æ¯ä¸ªèŠ‚ç‚¹rehashåˆ°ht[1]ï¼Œ
+å¯ä»¥ç¡®å®šçš„æ˜¯ï¼Œrehashå®Œæˆä¹‹åï¼Œï¼‰
 
-Redis¸´ÖÆÉÏ £ºhttps://www.cnblogs.com/MrHSR/p/10100490.html
-Redis¸´ÖÆÏÂ £ºhttps://www.cnblogs.com/MrHSR/p/10108158.html
+Rediså¤åˆ¶ä¸Š ï¼šhttps://www.cnblogs.com/MrHSR/p/10100490.html
+Rediså¤åˆ¶ä¸‹ ï¼šhttps://www.cnblogs.com/MrHSR/p/10108158.html
 
-¹²Ê¶Ëã·¨ https://www.jianshu.com/p/8e4bbe7e276c
+å…±è¯†ç®—æ³• https://www.jianshu.com/p/8e4bbe7e276c
 
-RedisÊı¾İ¶ªÊ§ https://blog.csdn.net/u012322399/article/details/80743173
+Redisæ•°æ®ä¸¢å¤± https://blog.csdn.net/u012322399/article/details/80743173
 
-Ö÷´ÓÊı¾İ²»Ò»ÖÂ https://segmentfault.com/a/1190000013144617
-
-
-MysqlµÄ°ëÍ¬²½¸´ÖÆhttps://www.cnblogs.com/ivictor/p/5735580.html
-
-MysqlµÄ°ëÍ¬²½Loss-LessÄ£Ê½ https://blog.csdn.net/win_man/article/details/81674942
-
-redis¶ÁĞ´·ÖÀëµÄÊ±ºò£¬´Ó¿âÖĞ¶ÁÈ¡µ½ÁËÒÑ¾­¹ıÆÚµÄkey£¬¼ÙÈçÃ»ÓĞÖ÷¿â²Ù×÷¹ı¸Ãkey£¬Ôò´Ó¿âÖĞµÄkeyÔÚºÜ³¤Ê±¼äÖ®ºó²ÅÉ¾³ıµô
- https://blog.csdn.net/cuqa12315/article/details/85596142£¨µ±ÊÇÕâÑùÖ÷¿âµÄ¶èĞÔÉ¾³ı¹¦ÄÜÆäÊµÃ»ÓĞÆğ×÷ÓÃ£©
-
-¼ÆËãÎ»ÖĞµÄººÃ÷ÖØÁ¿SWAR£ºhttps://www.cnblogs.com/katsura/p/5686138.html
-
-linuxÏÂredisÖ´ĞĞbgsaveÊ±£¬±¨overcommit_memory´íÎóÎÊÌâ http://itindex.net/detail/53673-linux-redis-bgsave
+ä¸»ä»æ•°æ®ä¸ä¸€è‡´ https://segmentfault.com/a/1190000013144617
 
 
-Redis¼¯ÈºÓë²å²Û·ÖÅä(¶¯Ì¬ĞÂÔö»òÉ¾³ı½áµã) https://blog.csdn.net/it_hejinrong/article/details/79205528s
+Mysqlçš„åŠåŒæ­¥å¤åˆ¶https://www.cnblogs.com/ivictor/p/5735580.html
 
-CRC16Ëã·¨£¨¼ÆËã¼üµÄCRCÂë&16383¾Í¿ÉÒÔµÃµ½²ÛµÄÎ»ÖÃ£¬´ı¿´£©https://blog.csdn.net/xing414736597/article/details/78693781
+Mysqlçš„åŠåŒæ­¥Loss-Lessæ¨¡å¼ https://blog.csdn.net/win_man/article/details/81674942
 
-ÁÄÒ»ÁÄ·Ö²¼Ê½ËøµÄÉè¼Æ£¨×ª£©
+redisè¯»å†™åˆ†ç¦»çš„æ—¶å€™ï¼Œä»åº“ä¸­è¯»å–åˆ°äº†å·²ç»è¿‡æœŸçš„keyï¼Œå‡å¦‚æ²¡æœ‰ä¸»åº“æ“ä½œè¿‡è¯¥keyï¼Œåˆ™ä»åº“ä¸­çš„keyåœ¨å¾ˆé•¿æ—¶é—´ä¹‹åæ‰åˆ é™¤æ‰
+ https://blog.csdn.net/cuqa12315/article/details/85596142ï¼ˆå½“æ˜¯è¿™æ ·ä¸»åº“çš„æƒ°æ€§åˆ é™¤åŠŸèƒ½å…¶å®æ²¡æœ‰èµ·ä½œç”¨ï¼‰
 
-»º´æ»÷´©¡¢Ê§Ğ§¼°ÈÈµãkeyÎÊÌâ https://www.cnblogs.com/peteremperor/p/7342119.html
-£¨ÈÈµãkeyµÄ½â¾ö£º±¾µØ»º´æ¡¢°ÑÈÈµãkey·ÖÎª¶à¸ö×Ókey£¬ÕâĞ©×Ókey´æ´¢µÄÖµºÍÈÈµãkeyÊÇÒ»ÑùµÄ£¬Ã¿´ÎÍ¨¹ıhashËã·¨Ëæ»ú¾ö¶¨Òªµ½ÄÄ¸ökey£©
+è®¡ç®—ä½ä¸­çš„æ±‰æ˜é‡é‡SWARï¼šhttps://www.cnblogs.com/katsura/p/5686138.html
 
-À­¹´Íø¡¶32¸öJavaÃæÊÔ±Ø¿¼µã¡·Ñ§Ï°±Ê¼ÇÖ®Ê®------»º´æ(RedisÓëMemcache)https://blog.csdn.net/werqerwer/article/details/88532950#_12
-
-
-CGLibºÍ¶¯Ì¬´úÀíµÄÇø±ğ https://blog.csdn.net/qq_34310242/article/details/78046384
-
-SpringµÄÊÂÎñ´«²¥»úÖÆ https://www.cnblogs.com/softidea/p/5962612.html
-
-PropertyPlaceholderConfigurer¶ÁÈ¡ÅäÖÃÎÄ¼ş£¨SpringbootÖĞµÄÀà£¬¼Ì³ĞÁËBeanFactoryPostProcessor£© https://www.cnblogs.com/dream-to-pku/p/6367396.html
-
-Spring ³£ÓÃµÄÁ½ÖÖPropertyPlaceholderConfigurer https://www.jianshu.com/p/a3c7ff0de5ac
-
-ÊÊÅäÆ÷https://blog.51cto.com/haolloyin/346128
-£¨
-ÉÏÃæÕâÖÖÊµÏÖµÄÊÊÅäÆ÷³ÆÎªÀàÊÊÅäÆ÷£¬ÒòÎª Adapter Àà¼È¼Ì³ĞÁË Adaptee £¨±»ÊÊÅäÀà£©£¬
-Ò²ÊµÏÖÁË Target ½Ó¿Ú£¨ÒòÎª Java ²»Ö§³Ö¶à¼Ì³Ğ£¬ËùÒÔÕâÑùÀ´ÊµÏÖ£©£¬
-ÔÚ Client ÀàÖĞÎÒÃÇ¿ÉÒÔ¸ù¾İĞèÒªÑ¡Ôñ²¢´´½¨ÈÎÒ»ÖÖ·ûºÏĞèÇóµÄ×ÓÀà£¬À´ÊµÏÖ¾ßÌå¹¦ÄÜ¡£
-ÁíÍâÒ»ÖÖÊÊÅäÆ÷Ä£Ê½ÊÇ¶ÔÏóÊÊÅäÆ÷£¬Ëü²»ÊÇÊ¹ÓÃ¶à¼Ì³Ğ»ò¼Ì³ĞÔÙÊµÏÖµÄ·½Ê½£¬¶øÊÇÊ¹ÓÃÖ±½Ó¹ØÁª£¬»òÕß³ÆÎªÎ¯ÍĞµÄ·½Ê½
-£©
-
-SpringMVCµÄÊÊÅäÆ÷ https://blog.csdn.net/u010288264/article/details/53835185
-£¨¿ÉÒÔ¿´µ½´¦ÀíÆ÷£¨¿í·ºµÄ¸ÅÄîController£¬ÒÔ¼°HttpRequestHandler£¬Servlet£¬µÈµÈ£©µÄÀàĞÍ²»Í¬£¬
-ÓĞ¶àÖØÊµÏÖ·½Ê½£¬ÄÇÃ´µ÷ÓÃ·½Ê½¾Í²»ÊÇÈ·¶¨µÄ£¬
-Èç¹ûĞèÒªÖ±½Óµ÷ÓÃController·½·¨£¬
-ĞèÒªµ÷ÓÃµÄÊ±ºò¾ÍµÃ²»¶ÏÊÇÊ¹ÓÃif elseÀ´½øĞĞÅĞ¶ÏÊÇÄÄÒ»ÖÖ×ÓÀàÈ»ºóÖ´ĞĞ¡£
-ÄÇÃ´Èç¹ûºóÃæÒªÀ©Õ¹£¨¿í·ºµÄ¸ÅÄîController£¬ÒÔ¼°HttpRequestHandler£¬Servlet£¬µÈµÈ£©Controller£¬
-¾ÍµÃĞŞ¸ÄÔ­À´µÄ´úÂë£¬ÕâÑùÎ¥±³ÁË¿ª±ÕÔ­Ôò£¨¶ÔĞŞ¸Ä¹Ø±Õ£¬¶ÔÀ©Õ¹¿ª·Å£©¡£
-£©
+linuxä¸‹redisæ‰§è¡Œbgsaveæ—¶ï¼ŒæŠ¥overcommit_memoryé”™è¯¯é—®é¢˜ http://itindex.net/detail/53673-linux-redis-bgsave
 
 
-SpringMVCµÄfilterºÍinterceptor https://blog.csdn.net/dshf_1/article/details/81112595
+Redisé›†ç¾¤ä¸æ’æ§½åˆ†é…(åŠ¨æ€æ–°å¢æˆ–åˆ é™¤ç»“ç‚¹) https://blog.csdn.net/it_hejinrong/article/details/79205528s
 
-POJO¡¢PO¡¢BO¡¢VO¡¢DTO¡¢DAO£º https://blog.csdn.net/u011870547/article/details/81077153
-£¨pojoÆÕÍ¨java¶ÔÏó£¬ÖĞ¼ä¶ÔÏó£¬¿ÉÒÔ×ª³Épo¡¢voµÈ£»PO³Ö¾Ã»¯java¶ÔÏó£¬entity£¬¶ÔÓ¦Êı¾İ¿âÖĞµÄÒ»Ìõ¼ÇÂ¼£©
-£¨boÒµÎñ¶ÔÏó£¬¿ÉÒÔ¿´³öservice²ãµÄ¶ÔÏó£»voÊÓÍ¼¶ÔÏó±ÈÈçweb¶ÔÏó¡¢swing¶ÔÏó£©
-£¨dtoÊı¾İ´«Êä¶ÔÏó£»dao£ºÊı¾İ·ÃÎÊ¶ÔÏó£¬·â×°¶ÔdbµÄ·ÃÎÊ²Ù×÷£¬½ÓÊÕÀ´×Ôbo²ãµÄÊı¾İ£¬°Ñpojo³Ö¾Ã»¯Îªpo£©
+CRC16ç®—æ³•ï¼ˆè®¡ç®—é”®çš„CRCç &16383å°±å¯ä»¥å¾—åˆ°æ§½çš„ä½ç½®ï¼Œå¾…çœ‹ï¼‰https://blog.csdn.net/xing414736597/article/details/78693781
 
-SpringµÄFactoryBean£ºhttps://blog.csdn.net/zknxx/article/details/79572387¡¢
-https://www.cnblogs.com/aspirant/p/9082858.html¡¢
+èŠä¸€èŠåˆ†å¸ƒå¼é”çš„è®¾è®¡ï¼ˆè½¬ï¼‰
+
+ç¼“å­˜å‡»ç©¿ã€å¤±æ•ˆåŠçƒ­ç‚¹keyé—®é¢˜ https://www.cnblogs.com/peteremperor/p/7342119.html
+ï¼ˆçƒ­ç‚¹keyçš„è§£å†³ï¼šæœ¬åœ°ç¼“å­˜ã€æŠŠçƒ­ç‚¹keyåˆ†ä¸ºå¤šä¸ªå­keyï¼Œè¿™äº›å­keyå­˜å‚¨çš„å€¼å’Œçƒ­ç‚¹keyæ˜¯ä¸€æ ·çš„ï¼Œæ¯æ¬¡é€šè¿‡hashç®—æ³•éšæœºå†³å®šè¦åˆ°å“ªä¸ªkeyï¼‰
+
+æ‹‰å‹¾ç½‘ã€Š32ä¸ªJavaé¢è¯•å¿…è€ƒç‚¹ã€‹å­¦ä¹ ç¬”è®°ä¹‹å------ç¼“å­˜(Redisä¸Memcache)https://blog.csdn.net/werqerwer/article/details/88532950#_12
+
+
+CGLibå’ŒåŠ¨æ€ä»£ç†çš„åŒºåˆ« https://blog.csdn.net/qq_34310242/article/details/78046384
+
+Springçš„äº‹åŠ¡ä¼ æ’­æœºåˆ¶ https://www.cnblogs.com/softidea/p/5962612.html
+
+PropertyPlaceholderConfigurerè¯»å–é…ç½®æ–‡ä»¶ï¼ˆSpringbootä¸­çš„ç±»ï¼Œç»§æ‰¿äº†BeanFactoryPostProcessorï¼‰ https://www.cnblogs.com/dream-to-pku/p/6367396.html
+
+Spring å¸¸ç”¨çš„ä¸¤ç§PropertyPlaceholderConfigurer https://www.jianshu.com/p/a3c7ff0de5ac
+
+é€‚é…å™¨https://blog.51cto.com/haolloyin/346128
+ï¼ˆ
+ä¸Šé¢è¿™ç§å®ç°çš„é€‚é…å™¨ç§°ä¸ºç±»é€‚é…å™¨ï¼Œå› ä¸º Adapter ç±»æ—¢ç»§æ‰¿äº† Adaptee ï¼ˆè¢«é€‚é…ç±»ï¼‰ï¼Œ
+ä¹Ÿå®ç°äº† Target æ¥å£ï¼ˆå› ä¸º Java ä¸æ”¯æŒå¤šç»§æ‰¿ï¼Œæ‰€ä»¥è¿™æ ·æ¥å®ç°ï¼‰ï¼Œ
+åœ¨ Client ç±»ä¸­æˆ‘ä»¬å¯ä»¥æ ¹æ®éœ€è¦é€‰æ‹©å¹¶åˆ›å»ºä»»ä¸€ç§ç¬¦åˆéœ€æ±‚çš„å­ç±»ï¼Œæ¥å®ç°å…·ä½“åŠŸèƒ½ã€‚
+å¦å¤–ä¸€ç§é€‚é…å™¨æ¨¡å¼æ˜¯å¯¹è±¡é€‚é…å™¨ï¼Œå®ƒä¸æ˜¯ä½¿ç”¨å¤šç»§æ‰¿æˆ–ç»§æ‰¿å†å®ç°çš„æ–¹å¼ï¼Œè€Œæ˜¯ä½¿ç”¨ç›´æ¥å…³è”ï¼Œæˆ–è€…ç§°ä¸ºå§”æ‰˜çš„æ–¹å¼
+ï¼‰
+
+SpringMVCçš„é€‚é…å™¨ https://blog.csdn.net/u010288264/article/details/53835185
+ï¼ˆå¯ä»¥çœ‹åˆ°å¤„ç†å™¨ï¼ˆå®½æ³›çš„æ¦‚å¿µControllerï¼Œä»¥åŠHttpRequestHandlerï¼ŒServletï¼Œç­‰ç­‰ï¼‰çš„ç±»å‹ä¸åŒï¼Œ
+æœ‰å¤šé‡å®ç°æ–¹å¼ï¼Œé‚£ä¹ˆè°ƒç”¨æ–¹å¼å°±ä¸æ˜¯ç¡®å®šçš„ï¼Œ
+å¦‚æœéœ€è¦ç›´æ¥è°ƒç”¨Controlleræ–¹æ³•ï¼Œ
+éœ€è¦è°ƒç”¨çš„æ—¶å€™å°±å¾—ä¸æ–­æ˜¯ä½¿ç”¨if elseæ¥è¿›è¡Œåˆ¤æ–­æ˜¯å“ªä¸€ç§å­ç±»ç„¶åæ‰§è¡Œã€‚
+é‚£ä¹ˆå¦‚æœåé¢è¦æ‰©å±•ï¼ˆå®½æ³›çš„æ¦‚å¿µControllerï¼Œä»¥åŠHttpRequestHandlerï¼ŒServletï¼Œç­‰ç­‰ï¼‰Controllerï¼Œ
+å°±å¾—ä¿®æ”¹åŸæ¥çš„ä»£ç ï¼Œè¿™æ ·è¿èƒŒäº†å¼€é—­åŸåˆ™ï¼ˆå¯¹ä¿®æ”¹å…³é—­ï¼Œå¯¹æ‰©å±•å¼€æ”¾ï¼‰ã€‚
+ï¼‰
+
+
+SpringMVCçš„filterå’Œinterceptor https://blog.csdn.net/dshf_1/article/details/81112595
+
+POJOã€POã€BOã€VOã€DTOã€DAOï¼š https://blog.csdn.net/u011870547/article/details/81077153
+ï¼ˆpojoæ™®é€šjavaå¯¹è±¡ï¼Œä¸­é—´å¯¹è±¡ï¼Œå¯ä»¥è½¬æˆpoã€voç­‰ï¼›POæŒä¹…åŒ–javaå¯¹è±¡ï¼Œentityï¼Œå¯¹åº”æ•°æ®åº“ä¸­çš„ä¸€æ¡è®°å½•ï¼‰
+ï¼ˆboä¸šåŠ¡å¯¹è±¡ï¼Œå¯ä»¥çœ‹å‡ºserviceå±‚çš„å¯¹è±¡ï¼›voè§†å›¾å¯¹è±¡æ¯”å¦‚webå¯¹è±¡ã€swingå¯¹è±¡ï¼‰
+ï¼ˆdtoæ•°æ®ä¼ è¾“å¯¹è±¡ï¼›daoï¼šæ•°æ®è®¿é—®å¯¹è±¡ï¼Œå°è£…å¯¹dbçš„è®¿é—®æ“ä½œï¼Œæ¥æ”¶æ¥è‡ªboå±‚çš„æ•°æ®ï¼ŒæŠŠpojoæŒä¹…åŒ–ä¸ºpoï¼‰
+
+Springçš„FactoryBeanï¼šhttps://blog.csdn.net/zknxx/article/details/79572387ã€
+https://www.cnblogs.com/aspirant/p/9082858.htmlã€
 https://www.cnblogs.com/quanyongan/p/4133724.html
-£¨FactoryBeanÊÇÒ»¸ö¹¤³§Bean£¬¿ÉÒÔÉú³ÉÄ³Ò»¸öÀàĞÍBeanÊµÀı£¬Ëü×î´óµÄÒ»¸ö×÷ÓÃÊÇ£º¿ÉÒÔÈÃÎÒÃÇ×Ô¶¨ÒåBeanµÄ´´½¨¹ı³Ì¡£
-ÓÃ»§¿ÉÒÔÍ¨¹ıÊµÏÖ¸Ã½Ó¿Ú¶¨ÖÆÊµÀı»¯BeanµÄÂß¼­¡£FactoryBeanºÍÆÕÍ¨bean²»Ò»Ñù£¬ÎÒÃÇgetBean£¨¡°factoryBean¡±£©ÄÃ¸öFactoryBeanµÄ
-Ê±ºò·µ»ØµÄÊÇFactoryBeanµÄgetObejct()·µ»ØµÄ¶ÔÏó£¬Õâ¸ö¶ÔÏó¿ÉÒÔ¸ù¾İisSingleTon()À´¾ö¶¨ÊÇ·ñµ¥Àı£¬
-µ±ÎÒÃÇÍ¨¹ıgetBean£¨¡°xyz.class¡±£©ÏëÄÃÄ³¸öÀàµÄÊµÀıµÄÊ±ºò£¬É¨ÃèSpring´´½¨µÄ¼¸ÖÖÌØÊâµÄµ¥Àıbean£¨±ÈÈçEnvironment£©£¬
-Èç¹ûÕâ¸öÊÇbeanÊÇFactoryBeanµÄ»°£¬ÅĞ¶ÏgetType()ÊÇ·ñºÍÎÒÃÇ´«µÄtypeÒ»Ñù£¬Èç¹ûÒ»Ñù¾Í·µ»ØgetObject()´´½¨µÄ¶ÔÏó£©
+ï¼ˆFactoryBeanæ˜¯ä¸€ä¸ªå·¥å‚Beanï¼Œå¯ä»¥ç”ŸæˆæŸä¸€ä¸ªç±»å‹Beanå®ä¾‹ï¼Œå®ƒæœ€å¤§çš„ä¸€ä¸ªä½œç”¨æ˜¯ï¼šå¯ä»¥è®©æˆ‘ä»¬è‡ªå®šä¹‰Beançš„åˆ›å»ºè¿‡ç¨‹ã€‚
+ç”¨æˆ·å¯ä»¥é€šè¿‡å®ç°è¯¥æ¥å£å®šåˆ¶å®ä¾‹åŒ–Beançš„é€»è¾‘ã€‚FactoryBeanå’Œæ™®é€šbeanä¸ä¸€æ ·ï¼Œæˆ‘ä»¬getBeanï¼ˆâ€œfactoryBeanâ€ï¼‰æ‹¿ä¸ªFactoryBeançš„
+æ—¶å€™è¿”å›çš„æ˜¯FactoryBeançš„getObejct()è¿”å›çš„å¯¹è±¡ï¼Œè¿™ä¸ªå¯¹è±¡å¯ä»¥æ ¹æ®isSingleTon()æ¥å†³å®šæ˜¯å¦å•ä¾‹ï¼Œ
+å½“æˆ‘ä»¬é€šè¿‡getBeanï¼ˆâ€œxyz.classâ€ï¼‰æƒ³æ‹¿æŸä¸ªç±»çš„å®ä¾‹çš„æ—¶å€™ï¼Œæ‰«æSpringåˆ›å»ºçš„å‡ ç§ç‰¹æ®Šçš„å•ä¾‹beanï¼ˆæ¯”å¦‚Environmentï¼‰ï¼Œ
+å¦‚æœè¿™ä¸ªæ˜¯beanæ˜¯FactoryBeançš„è¯ï¼Œåˆ¤æ–­getType()æ˜¯å¦å’Œæˆ‘ä»¬ä¼ çš„typeä¸€æ ·ï¼Œå¦‚æœä¸€æ ·å°±è¿”å›getObject()åˆ›å»ºçš„å¯¹è±¡ï¼‰
 
-Spring×Ô¶¯Åä×° https://www.cnblogs.com/sishang/p/6583057.html
+Springè‡ªåŠ¨é…è£… https://www.cnblogs.com/sishang/p/6583057.html
 
-HashMap1.8ÎªºÎ¸ÄÓÃÍ·²å·¨£¿ https://blog.csdn.net/qq_43193797/article/details/86738398
-£¨1.7µÄÍ·²å·¨²¢²»±È1.8µÄÎ²²å¸ßĞ§£¬Ô­ÒòÊÇ1.7ºÍ1.8¶¼ÒªÅĞ¶ÏkeyÊÇ·ñÖØ¸´£¬ÕâÊ±ºò¶¼»á±éÀúÁ´±í£¬
-¶ø1.7ÊÇ±éÀúÍê³ÉºóÃ»ÓĞÖØ¸´¾ÍÍ·²å£¬
-1.8ÊÇÈç¹ûÃ»ÓĞÖØ¸´£¬±éÀúµ½×îºóÒ»¸ö£¬Ö±½ÓÎ²²å£¬Á½Õß¶¼ĞèÒª±éÀúÁ´±í£©
+HashMap1.8ä¸ºä½•æ”¹ç”¨å¤´æ’æ³•ï¼Ÿ https://blog.csdn.net/qq_43193797/article/details/86738398
+ï¼ˆ1.7çš„å¤´æ’æ³•å¹¶ä¸æ¯”1.8çš„å°¾æ’é«˜æ•ˆï¼ŒåŸå› æ˜¯1.7å’Œ1.8éƒ½è¦åˆ¤æ–­keyæ˜¯å¦é‡å¤ï¼Œè¿™æ—¶å€™éƒ½ä¼šéå†é“¾è¡¨ï¼Œ
+è€Œ1.7æ˜¯éå†å®Œæˆåæ²¡æœ‰é‡å¤å°±å¤´æ’ï¼Œ
+1.8æ˜¯å¦‚æœæ²¡æœ‰é‡å¤ï¼Œéå†åˆ°æœ€åä¸€ä¸ªï¼Œç›´æ¥å°¾æ’ï¼Œä¸¤è€…éƒ½éœ€è¦éå†é“¾è¡¨ï¼‰
 
-MysqlÖĞµÄ×éºÏË÷Òı³¤Ê²Ã´Ñù×Ó£¿https://www.jianshu.com/p/35588ecf33c1
+Mysqlä¸­çš„ç»„åˆç´¢å¼•é•¿ä»€ä¹ˆæ ·å­ï¼Ÿhttps://www.jianshu.com/p/35588ecf33c1
 
-½©Ê¬½ø³Ì¡¢¹Â¶ù½ø³Ì https://www.cnblogs.com/Anker/p/3271773.html
+åƒµå°¸è¿›ç¨‹ã€å­¤å„¿è¿›ç¨‹ https://www.cnblogs.com/Anker/p/3271773.html
 
-½ø³ÌÏß³ÌĞ­³Ìhttps://www.cnblogs.com/guolei2570/p/8810536.html
+è¿›ç¨‹çº¿ç¨‹åç¨‹https://www.cnblogs.com/guolei2570/p/8810536.html
 
-javaµÄStream https://www.cnblogs.com/andywithu/p/7404101.html
+javaçš„Stream https://www.cnblogs.com/andywithu/p/7404101.html
 
-À¬»øÊÕ¼¯Æ÷ https://www.cnblogs.com/ityouknow/p/5614961.html
+åƒåœ¾æ”¶é›†å™¨ https://www.cnblogs.com/ityouknow/p/5614961.html
 
-ÉîÈëÀí½âSynchronizedÊµÏÖÔ­Àí https://www.imooc.com/article/34475
+æ·±å…¥ç†è§£Synchronizedå®ç°åŸç† https://www.imooc.com/article/34475
 
-ÃüÃû¹ÜµÀ https://www.cnblogs.com/wuchanming/p/4381510.html
+å‘½åç®¡é“ https://www.cnblogs.com/wuchanming/p/4381510.html
 
-Äã²»¿É²»ÖªµÄJavaÒıÓÃÀàĞÍÖ®¡ª¡ªĞéÒıÓÃ https://www.cnblogs.com/mfrank/p/9837070.html
-£¨ĞéÒıÓÃ²»»á¶ÔÒıÓÃµÄ¶ÔÏó²úÉúÓ°Ïì£¬Î¨Ò»µÄ×÷ÓÃÊÇÔÚ¶ÔÏó±»»ØÊÕµÄÊ±ºòÊÕµ½Ò»¸öÏµÍ³Í¨Öª£©
-£¨ÊÂÊµÉÏ£¬ĞéÒıÓÃÓĞÒ»¸öºÜÖØÒªµÄÓÃÍ¾¾ÍÊÇÓÃÀ´×ö¶ÑÍâÄÚ´æµÄÊÍ·Å£¬DirectByteBuffer¾ÍÊÇÍ¨¹ıĞéÒıÓÃÀ´ÊµÏÖ¶ÑÍâÄÚ´æµÄÊÍ·ÅµÄ¡££©
+ä½ ä¸å¯ä¸çŸ¥çš„Javaå¼•ç”¨ç±»å‹ä¹‹â€”â€”è™šå¼•ç”¨ https://www.cnblogs.com/mfrank/p/9837070.html
+ï¼ˆè™šå¼•ç”¨ä¸ä¼šå¯¹å¼•ç”¨çš„å¯¹è±¡äº§ç”Ÿå½±å“ï¼Œå”¯ä¸€çš„ä½œç”¨æ˜¯åœ¨å¯¹è±¡è¢«å›æ”¶çš„æ—¶å€™æ”¶åˆ°ä¸€ä¸ªç³»ç»Ÿé€šçŸ¥ï¼‰
+ï¼ˆäº‹å®ä¸Šï¼Œè™šå¼•ç”¨æœ‰ä¸€ä¸ªå¾ˆé‡è¦çš„ç”¨é€”å°±æ˜¯ç”¨æ¥åšå †å¤–å†…å­˜çš„é‡Šæ”¾ï¼ŒDirectByteBufferå°±æ˜¯é€šè¿‡è™šå¼•ç”¨æ¥å®ç°å †å¤–å†…å­˜çš„é‡Šæ”¾çš„ã€‚ï¼‰
 
-git fetchºÍgit pullµÄÇø±ğ£¨git pull = git fetch+git merge£© https://blog.csdn.net/weixin_41975655/article/details/82887273
+git fetchå’Œgit pullçš„åŒºåˆ«ï¼ˆgit pull = git fetch+git mergeï¼‰ https://blog.csdn.net/weixin_41975655/article/details/82887273
 
-DelayQueueµÄÊ¹ÓÃ³¡¾° https://www.cnblogs.com/shamo89/p/7055039.html
+DelayQueueçš„ä½¿ç”¨åœºæ™¯ https://www.cnblogs.com/shamo89/p/7055039.html
 
-SpringbootÕûºÏQuartz  https://www.cnblogs.com/lic309/p/4089633.html
-£¨Job£¨excute£¬ÈÎÎñ±íÊ¾ÒªÖ´ĞĞµÄ¾ßÌåÄÚÈİ£©¡¢
-JobDetail£¨±íÊ¾Ò»¸ö¾ßÌåµÄ¿ÉÖ´ĞĞµÄµ÷¶È³ÌĞò£¬°üº¬ÁËÕâ¸öÈÎÎñµ÷¶ÈµÄ·½°¸£©
-£¨JobDetailFactoryBean¡¢MethodInvokinngJobDetailFactoryBean£©¡¢
-£¨Trigger£º´¥·¢Æ÷£¬Ö´ĞĞÈÎÎñµÄ¹æÔò£¬±ÈÈçÃ¿Ìì¡¢Ã¿Ğ¡Ê±µÈ£©
-£¨SimpleTrigger¡¢CronTrigger£¨ÉèÖÃcron±í´ïÊ½£º0 0 23 * * £¿£¬±íÊ¾Ã¿Ìì23µãµÄÊ±ºòÖ´ĞĞ£©¡¢
-£¨Scheduler£ºÈÎÎñµ÷¶È£¬´ú±íÒ»¸öµ÷¶ÈÈİÆ÷£¬ÔÚÒ»¸öµ÷¶ÈÈİÆ÷ÀïÃæ¿ÉÒÔ×¢²á¶à¸öJobDetailºÍTrigger£©£©
+Springbootæ•´åˆQuartz  https://www.cnblogs.com/lic309/p/4089633.html
+ï¼ˆJobï¼ˆexcuteï¼Œä»»åŠ¡è¡¨ç¤ºè¦æ‰§è¡Œçš„å…·ä½“å†…å®¹ï¼‰ã€
+JobDetailï¼ˆè¡¨ç¤ºä¸€ä¸ªå…·ä½“çš„å¯æ‰§è¡Œçš„è°ƒåº¦ç¨‹åºï¼ŒåŒ…å«äº†è¿™ä¸ªä»»åŠ¡è°ƒåº¦çš„æ–¹æ¡ˆï¼‰
+ï¼ˆJobDetailFactoryBeanã€MethodInvokinngJobDetailFactoryBeanï¼‰ã€
+ï¼ˆTriggerï¼šè§¦å‘å™¨ï¼Œæ‰§è¡Œä»»åŠ¡çš„è§„åˆ™ï¼Œæ¯”å¦‚æ¯å¤©ã€æ¯å°æ—¶ç­‰ï¼‰
+ï¼ˆSimpleTriggerã€CronTriggerï¼ˆè®¾ç½®cronè¡¨è¾¾å¼ï¼š0 0 23 * * ï¼Ÿï¼Œè¡¨ç¤ºæ¯å¤©23ç‚¹çš„æ—¶å€™æ‰§è¡Œï¼‰ã€
+ï¼ˆSchedulerï¼šä»»åŠ¡è°ƒåº¦ï¼Œä»£è¡¨ä¸€ä¸ªè°ƒåº¦å®¹å™¨ï¼Œåœ¨ä¸€ä¸ªè°ƒåº¦å®¹å™¨é‡Œé¢å¯ä»¥æ³¨å†Œå¤šä¸ªJobDetailå’ŒTriggerï¼‰ï¼‰
 
 
-ÏûÏ¢ÖĞ¼ä¼şÑ¡ĞÍ·ÖÎö¡ª¡ª´ÓKafkaÓëRabbitMQµÄ¶Ô±ÈÀ´¿´È«¾Ö https://www.jianshu.com/p/8f7ebbcbeee5
+æ¶ˆæ¯ä¸­é—´ä»¶é€‰å‹åˆ†æâ€”â€”ä»Kafkaä¸RabbitMQçš„å¯¹æ¯”æ¥çœ‹å…¨å±€ https://www.jianshu.com/p/8f7ebbcbeee5
 
-¸É»õ£ºÕâÒ²ĞíÊÇ×îÈ«ÃæÍ¸³¹µÄÒ»ÆªRabbitMQÖ¸ÄÏ£¡ https://dbaplus.cn/news-141-1464-1.html
-(Exchanges£¨fanout¡¢direct¡¢topic¡¢headers£©¡¢Queue¡¢pc¡¢binding¡¢routing key)
+å¹²è´§ï¼šè¿™ä¹Ÿè®¸æ˜¯æœ€å…¨é¢é€å½»çš„ä¸€ç¯‡RabbitMQæŒ‡å—ï¼ https://dbaplus.cn/news-141-1464-1.html
+(Exchangesï¼ˆfanoutã€directã€topicã€headersï¼‰ã€Queueã€pcã€bindingã€routing key)
 
-SpringBootÕûºÏRabbitMQÊÂÀı https://www.cnblogs.com/boshen-hzb/p/6841982.html
+SpringBootæ•´åˆRabbitMQäº‹ä¾‹ https://www.cnblogs.com/boshen-hzb/p/6841982.html
 
-RabbtiMqÑÓÊ±¶ÓÁĞ https://blog.csdn.net/eumenides_/article/details/86025773
+RabbtiMqå»¶æ—¶é˜Ÿåˆ— https://blog.csdn.net/eumenides_/article/details/86025773
 
-SpringAMQP APIÎÄµµ https://docs.spring.io/spring-amqp/docs/2.1.5.RELEASE/api/
+SpringAMQP APIæ–‡æ¡£ https://docs.spring.io/spring-amqp/docs/2.1.5.RELEASE/api/
 
-RabbitMQ APIÎÄµµ https://rabbitmq.github.io/rabbitmq-java-client/api/4.x.x/
+RabbitMQ APIæ–‡æ¡£ https://rabbitmq.github.io/rabbitmq-java-client/api/4.x.x/
 
-RabbitMQµÄÊÂÎñºÍConfirmhttps://blog.csdn.net/u013256816/article/details/55515234
+RabbitMQçš„äº‹åŠ¡å’ŒConfirmhttps://blog.csdn.net/u013256816/article/details/55515234
 
-SpringBootÕûºÏRabbtiMQµÄConfirm https://www.cnblogs.com/sky-chen/p/9817509.html
+SpringBootæ•´åˆRabbtiMQçš„Confirm https://www.cnblogs.com/sky-chen/p/9817509.html
 
-RabbitMQÑ§Ï°-vhost Ïê½âhttps://blog.csdn.net/hqwang4/article/details/81706090
+RabbitMQå­¦ä¹ -vhost è¯¦è§£https://blog.csdn.net/hqwang4/article/details/81706090
 
-rabbitmq»ù´¡Ñ§Ï°+springboot½áºÏrabbitmqÊµÏÖ»Øµ÷È·ÈÏconfirm https://www.cnblogs.com/sky-chen/p/9817509.html
+rabbitmqåŸºç¡€å­¦ä¹ +springbootç»“åˆrabbitmqå®ç°å›è°ƒç¡®è®¤confirm https://www.cnblogs.com/sky-chen/p/9817509.html
 
-RabbitMqÏûÏ¢³Ö¾Ã»¯£¨SpringBootÄ¬ÈÏÇé¿öÏÂÒÑ¾­ÊÇ³Ö¾Ã»¯¶ÓÁĞºÍÏûÏ¢µÄ£© https://blog.csdn.net/zunguitiancheng/article/details/81335737
+RabbitMqæ¶ˆæ¯æŒä¹…åŒ–ï¼ˆSpringBooté»˜è®¤æƒ…å†µä¸‹å·²ç»æ˜¯æŒä¹…åŒ–é˜Ÿåˆ—å’Œæ¶ˆæ¯çš„ï¼‰ https://blog.csdn.net/zunguitiancheng/article/details/81335737
 
-rabbitmqÓÃ»§¹ÜÀí¡¢½ÇÉ«¹ÜÀíÓëÈ¨ÏŞ¹ÜÀí https://www.cnblogs.com/java-zhao/p/5670476.html
+rabbitmqç”¨æˆ·ç®¡ç†ã€è§’è‰²ç®¡ç†ä¸æƒé™ç®¡ç† https://www.cnblogs.com/java-zhao/p/5670476.html
 
-rabbitMQÖ®¼¯ÈºÄ£Ê½ https://blog.csdn.net/zhu_tianwei/article/details/40930305
-£¨ÆÕÍ¨Ä£Ê½£¬ÏûÏ¢×Å´æÔÚÒ»¸ö½Úµã£¬´ÓÆäËû½ÚµãÄÃµÄÊ±ºòÁÙÊ±´Ó´æÏûÏ¢µÄ½ÚµãÖĞÈ¡£©
-£¨¾µÏñÄ£Ê½£¬ÏûÏ¢¿ÉÒÔ¸ù¾İ²ßÂÔÍ¬²½´æÔÚ²»Í¬µÄ½Úµã£©
+rabbitMQä¹‹é›†ç¾¤æ¨¡å¼ https://blog.csdn.net/zhu_tianwei/article/details/40930305
+ï¼ˆæ™®é€šæ¨¡å¼ï¼Œæ¶ˆæ¯ç€å­˜åœ¨ä¸€ä¸ªèŠ‚ç‚¹ï¼Œä»å…¶ä»–èŠ‚ç‚¹æ‹¿çš„æ—¶å€™ä¸´æ—¶ä»å­˜æ¶ˆæ¯çš„èŠ‚ç‚¹ä¸­å–ï¼‰
+ï¼ˆé•œåƒæ¨¡å¼ï¼Œæ¶ˆæ¯å¯ä»¥æ ¹æ®ç­–ç•¥åŒæ­¥å­˜åœ¨ä¸åŒçš„èŠ‚ç‚¹ï¼‰
 
-ÈÏÊ¶JWT https://www.cnblogs.com/cjsblog/p/9277677.html
+è®¤è¯†JWT https://www.cnblogs.com/cjsblog/p/9277677.html
 
-10·ÖÖÓÁË½âJWT https://baijiahao.baidu.com/s?id=1608021814182894637&wfr=spider&for=pc
-£¨JWTÓÉÈı²¿·Ö×é³É£ºheader.payload.signature,headerÖĞ·ÅÁËÇ©ÃûÊ¹ÓÃµÄËã·¨£¬payload·ÅÁËÓÃ»§ĞÅÏ¢¡¢Ê§Ğ§Ê±¼äµÈ£¬
-Ç°ÃæÁ½²¿·ÖÊ¹ÓÃBASE64URLËã·¨±ä³É×Ö·û´®£¬µ«ÊÇÊÇ¿ÉÒÔ±»²é¿´µÄ£¬
-signature¶ÔÉÏÃæµÄĞÅÏ¢Ê¹ÓÃÃÜÔ¿½øĞĞ¼ÓÃÜ£¬·ÀÖ¹ĞÅÏ¢±»´Û¸Ä¡££©
+10åˆ†é’Ÿäº†è§£JWT https://baijiahao.baidu.com/s?id=1608021814182894637&wfr=spider&for=pc
+ï¼ˆJWTç”±ä¸‰éƒ¨åˆ†ç»„æˆï¼šheader.payload.signature,headerä¸­æ”¾äº†ç­¾åä½¿ç”¨çš„ç®—æ³•ï¼Œpayloadæ”¾äº†ç”¨æˆ·ä¿¡æ¯ã€å¤±æ•ˆæ—¶é—´ç­‰ï¼Œ
+å‰é¢ä¸¤éƒ¨åˆ†ä½¿ç”¨BASE64URLç®—æ³•å˜æˆå­—ç¬¦ä¸²ï¼Œä½†æ˜¯æ˜¯å¯ä»¥è¢«æŸ¥çœ‹çš„ï¼Œ
+signatureå¯¹ä¸Šé¢çš„ä¿¡æ¯ä½¿ç”¨å¯†é’¥è¿›è¡ŒåŠ å¯†ï¼Œé˜²æ­¢ä¿¡æ¯è¢«ç¯¡æ”¹ã€‚ï¼‰
 
 BASE64https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001399413803339f4bbda5c01fc479cbea98b1387390748000
-(Ò»ÖÖ½«ÈÎÒâ¶ş½øÖÆ×ªÎª64×Ö½ÚµÄ×Ö·û´®µÄ·½·¨£¬¾ßÌå×ö·¨ÊÇÓĞÒ»¸ö64×Ö·ûµÄÊı×é£¬¶ÔÒª²Ù×÷µÄ¶ş½øÖÆ½øĞĞ²ğ·Ö×é£¬
-Ã¿×é¶ÔÓ¦µÄÊı×ÖÈ¥ÕÒÊı×é¶ÔÓ¦Î»ÖÃµÄ×Ö·û£¬Èç¹û¶ş½øÖÆ²»¹»·Ö×éÔòÔÚºóÃæ²¹0£¬ºóÃæÓÃ=ºÅ±íÊ¾²¹ÁË¶àÉÙ¸ö×Ö½Ú£©
+(ä¸€ç§å°†ä»»æ„äºŒè¿›åˆ¶è½¬ä¸º64å­—èŠ‚çš„å­—ç¬¦ä¸²çš„æ–¹æ³•ï¼Œå…·ä½“åšæ³•æ˜¯æœ‰ä¸€ä¸ª64å­—ç¬¦çš„æ•°ç»„ï¼Œå¯¹è¦æ“ä½œçš„äºŒè¿›åˆ¶è¿›è¡Œæ‹†åˆ†ç»„ï¼Œ
+æ¯ç»„å¯¹åº”çš„æ•°å­—å»æ‰¾æ•°ç»„å¯¹åº”ä½ç½®çš„å­—ç¬¦ï¼Œå¦‚æœäºŒè¿›åˆ¶ä¸å¤Ÿåˆ†ç»„åˆ™åœ¨åé¢è¡¥0ï¼Œåé¢ç”¨=å·è¡¨ç¤ºè¡¥äº†å¤šå°‘ä¸ªå­—èŠ‚ï¼‰
 
-ConcurrentHashMapÔ´Âë·ÖÎö https://www.jianshu.com/p/f9b3e76951c2
+ConcurrentHashMapæºç åˆ†æ https://www.jianshu.com/p/f9b3e76951c2
 
-³éÏóÀàºÍ½Ó¿ÚµÄÇø±ğ https://www.cnblogs.com/dolphin0520/p/3811437.html
+æŠ½è±¡ç±»å’Œæ¥å£çš„åŒºåˆ« https://www.cnblogs.com/dolphin0520/p/3811437.html
 
-ÈçºÎ±£Ö¤redisÀïÃæ¶¼ÊÇÈÈµãÊı¾İ£¿£¨lurÌÔÌ­²ßÂÔ£© https://blog.csdn.net/u013308490/article/details/87737810
+å¦‚ä½•ä¿è¯redisé‡Œé¢éƒ½æ˜¯çƒ­ç‚¹æ•°æ®ï¼Ÿï¼ˆluræ·˜æ±°ç­–ç•¥ï¼‰ https://blog.csdn.net/u013308490/article/details/87737810
 
-·Ö²¼Ê½ÊÂÎñ½â¾ö·½°¸ https://blog.csdn.net/vvsuperman/article/details/78804302
+åˆ†å¸ƒå¼äº‹åŠ¡è§£å†³æ–¹æ¡ˆ https://blog.csdn.net/vvsuperman/article/details/78804302
 
-¾¡×î´óÅ¬Á¦½»¸¶ https://blog.csdn.net/zsh2050/article/details/78034094
+å°½æœ€å¤§åŠªåŠ›äº¤ä»˜ https://blog.csdn.net/zsh2050/article/details/78034094
 
-·Ö¿â·Ö±íµÄ¼¸ÖÖ³£¼ûÍæ·¨ https://blog.csdn.net/dinglang_2009/article/details/53195835
+åˆ†åº“åˆ†è¡¨çš„å‡ ç§å¸¸è§ç©æ³• https://blog.csdn.net/dinglang_2009/article/details/53195835
 
-mycatÅäÖÃ https://www.cnblogs.com/kevingrace/p/9365840.html
+mycaté…ç½® https://www.cnblogs.com/kevingrace/p/9365840.html
 
-ThreadLocalµÄÄÚ´æĞ¹Â©ÎÊÌâ£¨Éî¶ÈºÃÎÄ£¡£© https://www.cnblogs.com/aspirant/p/8991010.html
-£¨ThreadLocalMapµÄkeyÊÇÈõÒıÓÃ£¬Èç¹ûThreadLocal±»»ØÊÕÁË£¬keyÎªnull£¬ÔÚset¡¢getµÄÊ±ºò·¢ÏÖkeyÎªnullµÄ»á°ÑvalueÖ¸Ïònull£¬ÈÃvalue½øĞĞÀ¬»ø»ØÊÕ£©
-£¨Èç¹ûÏß³ÌÒ»Ö±Ã»ÓĞÏú»Ù£¬±ÈÈçÏß³Ì³ØµÄÊ±ºò£¬¶øÇÒÒ²Ò»Ö±Ã»ÓĞ¶ÔThreadLocalMap½øĞĞget¡¢set²Ù×÷£¬keyÎªnullµÄvalue¾ÍÒ»Ö±´æÔÚ×Å£¬³öÏÖÄÚ´æĞ¹Â©£©
+ThreadLocalçš„å†…å­˜æ³„æ¼é—®é¢˜ï¼ˆæ·±åº¦å¥½æ–‡ï¼ï¼‰ https://www.cnblogs.com/aspirant/p/8991010.html
+ï¼ˆThreadLocalMapçš„keyæ˜¯å¼±å¼•ç”¨ï¼Œå¦‚æœThreadLocalè¢«å›æ”¶äº†ï¼Œkeyä¸ºnullï¼Œåœ¨setã€getçš„æ—¶å€™å‘ç°keyä¸ºnullçš„ä¼šæŠŠvalueæŒ‡å‘nullï¼Œè®©valueè¿›è¡Œåƒåœ¾å›æ”¶ï¼‰
+ï¼ˆå¦‚æœçº¿ç¨‹ä¸€ç›´æ²¡æœ‰é”€æ¯ï¼Œæ¯”å¦‚çº¿ç¨‹æ± çš„æ—¶å€™ï¼Œè€Œä¸”ä¹Ÿä¸€ç›´æ²¡æœ‰å¯¹ThreadLocalMapè¿›è¡Œgetã€setæ“ä½œï¼Œkeyä¸ºnullçš„valueå°±ä¸€ç›´å­˜åœ¨ç€ï¼Œå‡ºç°å†…å­˜æ³„æ¼ï¼‰
 
-Tomcat Àà¼ÓÔØÆ÷Ö®ÎªºÎÎ¥±³Ë«Ç×Î¯ÅÉÄ£ĞÍ https://blog.csdn.net/dangwanma6489/article/details/80244981
+Tomcat ç±»åŠ è½½å™¨ä¹‹ä¸ºä½•è¿èƒŒåŒäº²å§”æ´¾æ¨¡å‹ https://blog.csdn.net/dangwanma6489/article/details/80244981
 
-Í¼½âTomcatÀà¼ÓÔØ»úÖÆ(°¢ÀïÃæÊÔÌâ) https://www.cnblogs.com/aspirant/p/8991830.html
+å›¾è§£Tomcatç±»åŠ è½½æœºåˆ¶(é˜¿é‡Œé¢è¯•é¢˜) https://www.cnblogs.com/aspirant/p/8991830.html
 
-Mybatis¹¤×÷Ô­Àíhttps://blog.csdn.net/u014297148/article/details/78696096
+Mybatiså·¥ä½œåŸç†https://blog.csdn.net/u014297148/article/details/78696096
 
-ÉîÈëÇ³³ösoa https://www.cnblogs.com/renzhitian/p/6853289.html
+æ·±å…¥æµ…å‡ºsoa https://www.cnblogs.com/renzhitian/p/6853289.html
 
-ÎªÊ²Ã´concurrentHashMapÒªÇóvalue²»ÄÜÎªnull£¿£©https://laiqitech.com/125/
-£¨Èç¹ûvalueÎªnull£¬getµÄÊ±ºòµÃµ½Ò»¸önullµÄÖµ£¬ÎÒÃÇÃ»°ì·¨È·¶¨ÊÇkeyÃ»ÓĞÕÒµ½¶ø·µ»Ønull£¬»¹ÊÇvalueÎªnull£©
-£¨ÔÚhashMapµÄÊ±ºòÎÒÃÇ¿ÉÒÔÍ¨¹ıcontainsKeyÈ¥ÅĞ¶Ï£¬µ«ÔÚconcurrentHashMapÕâÖÖ²¢·¢»·¾³ÏÂ£¬ÓÖ»á³öÏÖ²¢·¢ÎÊÌâ£©
-£¨ÁíÍâ£¬doug lea ÈÏÎªÔÊĞínullÊÇÒ»ÖÖ²»ºÃµÄÉè¼Æ£¬¼ÙÈçÎÒÃÇ·ÅÈëÁËÒ»¸ö²»ÔÊĞíµÄnullµÄvalue£¬£¨¶øÒòÎªÄ³Ğ©´íÎó·Å½øÁËnull£©
-µÈµ½Ê¹ÓÃµÄÊ±ºò£¬ÎÒÃÇ²ÅÄÜÖªµÀ£¬±¨³önullPointerException£©
+ä¸ºä»€ä¹ˆconcurrentHashMapè¦æ±‚valueä¸èƒ½ä¸ºnullï¼Ÿï¼‰https://laiqitech.com/125/
+ï¼ˆå¦‚æœvalueä¸ºnullï¼Œgetçš„æ—¶å€™å¾—åˆ°ä¸€ä¸ªnullçš„å€¼ï¼Œæˆ‘ä»¬æ²¡åŠæ³•ç¡®å®šæ˜¯keyæ²¡æœ‰æ‰¾åˆ°è€Œè¿”å›nullï¼Œè¿˜æ˜¯valueä¸ºnullï¼‰
+ï¼ˆåœ¨hashMapçš„æ—¶å€™æˆ‘ä»¬å¯ä»¥é€šè¿‡containsKeyå»åˆ¤æ–­ï¼Œä½†åœ¨concurrentHashMapè¿™ç§å¹¶å‘ç¯å¢ƒä¸‹ï¼Œåˆä¼šå‡ºç°å¹¶å‘é—®é¢˜ï¼‰
+ï¼ˆå¦å¤–ï¼Œdoug lea è®¤ä¸ºå…è®¸nullæ˜¯ä¸€ç§ä¸å¥½çš„è®¾è®¡ï¼Œå‡å¦‚æˆ‘ä»¬æ”¾å…¥äº†ä¸€ä¸ªä¸å…è®¸çš„nullçš„valueï¼Œï¼ˆè€Œå› ä¸ºæŸäº›é”™è¯¯æ”¾è¿›äº†nullï¼‰
+ç­‰åˆ°ä½¿ç”¨çš„æ—¶å€™ï¼Œæˆ‘ä»¬æ‰èƒ½çŸ¥é“ï¼ŒæŠ¥å‡ºnullPointerExceptionï¼‰
 
-RBACÄ£Ê½ https://www.sojson.com/blog/141.html
+RBACæ¨¡å¼ https://www.sojson.com/blog/141.html
 
-SpringÈçºÎ´ÓWEBÄÚ²¿¹Ø±ÕÈİÆ÷ https://blog.csdn.net/jiewolf/article/details/78476537
+Springå¦‚ä½•ä»WEBå†…éƒ¨å…³é—­å®¹å™¨ https://blog.csdn.net/jiewolf/article/details/78476537
 
-MysqlµÄjoinÁ¬½Ó²éÑ¯
+Mysqlçš„joinè¿æ¥æŸ¥è¯¢
 https://blog.csdn.net/qiushisoftware/article/details/80489128
-MysqlµÄÍâÁ¬½Ó£¨×óÍâÁ¬½Ó¡¢ÓÒÍâÁ¬½Ó¡¢È«ÍâÁ¬½Ó£¨Í¨¹ıunion×ó¡¢ÓÒÁ¬½ÓÀ´×ö£©£©£¨union²éÑ¯½á¹û²»°üº¬ÖØ¸´µÄĞĞ£¬unoin allÖØ¸´µÄĞĞ²»»áºÏ²¢£©
-MysqlµÄÄÚÁ¬½Ó£¨½á¹ûÖĞ½ö½ö°üº¬Âú×ãµÄÌõ¼şµÄĞĞ£©
-MysqlµÄ½»²æÁ¬½Ó£¨×óÓÒ±íÖĞÈÎÒâÔª×éµÄ¼¯ºÏcoross join£©
-MysqlµÄ×ÔÁ¬½Ó £¨Ò»¸ö±íÄÚÁ¬½Ó×Ô¼º£¬ÓÃ±ğÃûÀ´Çø±ğ£©
+Mysqlçš„å¤–è¿æ¥ï¼ˆå·¦å¤–è¿æ¥ã€å³å¤–è¿æ¥ã€å…¨å¤–è¿æ¥ï¼ˆé€šè¿‡unionå·¦ã€å³è¿æ¥æ¥åšï¼‰ï¼‰ï¼ˆunionæŸ¥è¯¢ç»“æœä¸åŒ…å«é‡å¤çš„è¡Œï¼Œunoin allé‡å¤çš„è¡Œä¸ä¼šåˆå¹¶ï¼‰
+Mysqlçš„å†…è¿æ¥ï¼ˆç»“æœä¸­ä»…ä»…åŒ…å«æ»¡è¶³çš„æ¡ä»¶çš„è¡Œï¼‰
+Mysqlçš„äº¤å‰è¿æ¥ï¼ˆå·¦å³è¡¨ä¸­ä»»æ„å…ƒç»„çš„é›†åˆcoross joinï¼‰
+Mysqlçš„è‡ªè¿æ¥ ï¼ˆä¸€ä¸ªè¡¨å†…è¿æ¥è‡ªå·±ï¼Œç”¨åˆ«åæ¥åŒºåˆ«ï¼‰
 
-SpringbotÊ¹ÓÃjetty https://blog.csdn.net/lzc4869/article/details/79817511
+Springbotä½¿ç”¨jetty https://blog.csdn.net/lzc4869/article/details/79817511
 
-HttpsÏê½â https://www.jianshu.com/p/304674bd0618
+Httpsè¯¦è§£ https://www.jianshu.com/p/304674bd0618
 
-linuxÄÚºË-·ÖÅäPIDÎ»Í¼Ëã·¨ http://emb.hqyj.com/Column/9232.html
+linuxå†…æ ¸-åˆ†é…PIDä½å›¾ç®—æ³• http://emb.hqyj.com/Column/9232.html
 
-Spring¼ÓÔØ¶à¸öÅäÖÃÎÄ¼ş https://www.cnblogs.com/gexiaoshan/p/3566238.html
+SpringåŠ è½½å¤šä¸ªé…ç½®æ–‡ä»¶ https://www.cnblogs.com/gexiaoshan/p/3566238.html
 
-SpringÊÇÈçºÎ¼ÓÔØxmlÎÄ¼şµÄ https://blog.csdn.net/Mr_Hou2016/article/details/78626864
+Springæ˜¯å¦‚ä½•åŠ è½½xmlæ–‡ä»¶çš„ https://blog.csdn.net/Mr_Hou2016/article/details/78626864
 
-SpringMvcºÍMybatisÕûºÏĞèÒªÅäÖÃµÄxml https://www.cnblogs.com/mrluotong/p/5898466.html
+SpringMvcå’ŒMybatisæ•´åˆéœ€è¦é…ç½®çš„xml https://www.cnblogs.com/mrluotong/p/5898466.html
 
-Springboot¶à»·¾³ÅäÖÃ https://blog.csdn.net/linzhiqiang0316/article/details/81541115
-£¨ÔÚÖ÷ymlÖĞÍ¨¹ı spring.profiles.active=¡®»·¾³µÄÃû³Æ¡¯£©
+Springbootå¤šç¯å¢ƒé…ç½® https://blog.csdn.net/linzhiqiang0316/article/details/81541115
+ï¼ˆåœ¨ä¸»ymlä¸­é€šè¿‡ spring.profiles.active=â€˜ç¯å¢ƒçš„åç§°â€™ï¼‰
 
 
-SessionÔÚ½ûÓÃcookieµÄÊ±ºòÔõÃ´urlÖØĞ´ https://blog.csdn.net/weixin_40648117/article/details/78844100
-£¨response.encodeURL£©
+Sessionåœ¨ç¦ç”¨cookieçš„æ—¶å€™æ€ä¹ˆurlé‡å†™ https://blog.csdn.net/weixin_40648117/article/details/78844100
+ï¼ˆresponse.encodeURLï¼‰
 
-javaÖĞsessionÊ²Ã´Ê±ºò»á±»´´½¨https://blog.csdn.net/liang0000zai/article/details/51460005
-£¨µ÷ÓÃrequest.getSession()µÄÊ±ºò£¬Èç¹ûÃ»ÓĞsessionÔò»á´´½¨£¬ÔÚjspÖĞÄ¬ÈÏ¿ªÆôÁË<%@ page session="true"%>£¬ËùÒÔ·ÃÎÊjspÒ³ÃæµÄÊ±ºò¾Í´´½¨ÁËsession£©
+javaä¸­sessionä»€ä¹ˆæ—¶å€™ä¼šè¢«åˆ›å»ºhttps://blog.csdn.net/liang0000zai/article/details/51460005
+ï¼ˆè°ƒç”¨request.getSession()çš„æ—¶å€™ï¼Œå¦‚æœæ²¡æœ‰sessionåˆ™ä¼šåˆ›å»ºï¼Œåœ¨jspä¸­é»˜è®¤å¼€å¯äº†<%@ page session="true"%>ï¼Œæ‰€ä»¥è®¿é—®jspé¡µé¢çš„æ—¶å€™å°±åˆ›å»ºäº†sessionï¼‰
 
-Nginx°²×° https://blog.csdn.net/qq_23832313/article/details/83578836#aptgetnginx_7
+Nginxå®‰è£… https://blog.csdn.net/qq_23832313/article/details/83578836#aptgetnginx_7
 
-NginxÅäÖÃ http://www.cnblogs.com/gmq-sh/p/5750833.html
+Nginxé…ç½® http://www.cnblogs.com/gmq-sh/p/5750833.html
 
-ÓÅÑÅ¹Ø±ÕÏß³Ì³Ø https://www.cnblogs.com/qingquanzi/p/9018627.html
+ä¼˜é›…å…³é—­çº¿ç¨‹æ±  https://www.cnblogs.com/qingquanzi/p/9018627.html
 
-Ïß³Ì³ØµÄ×´Ì¬¿ØÖÆ https://www.jianshu.com/p/18065a78178b
-£¨tidying×´Ì¬ÊÇÔÚshutdown»òstopºó¹¤×÷¶ÓÁĞºÍÈÎÎñ¶ÓÁĞÎª¿ÕµÄÇé¿öÏÂ»á½øÈëÕâ¸ö×´Ì¬£¬È»ºóÖ´ĞĞterminated()·½·¨±äÎªTERMINATED½áÊøÌ¬£©
+çº¿ç¨‹æ± çš„çŠ¶æ€æ§åˆ¶ https://www.jianshu.com/p/18065a78178b
+ï¼ˆtidyingçŠ¶æ€æ˜¯åœ¨shutdownæˆ–stopåå·¥ä½œé˜Ÿåˆ—å’Œä»»åŠ¡é˜Ÿåˆ—ä¸ºç©ºçš„æƒ…å†µä¸‹ä¼šè¿›å…¥è¿™ä¸ªçŠ¶æ€ï¼Œç„¶åæ‰§è¡Œterminated()æ–¹æ³•å˜ä¸ºTERMINATEDç»“æŸæ€ï¼‰
 
-Ö§¸¶ÏµÍ³×ªÕË¹ı³ÌÖĞ²¢·¢½»Ò×ÒıÆğµÄ·Ö²¼Ê½ËÀËøÎÊÌâ https://blog.csdn.net/claram/article/details/77853472£¨¸Ä±ä¼ÓËøµÄË³Ğò£©
+æ”¯ä»˜ç³»ç»Ÿè½¬è´¦è¿‡ç¨‹ä¸­å¹¶å‘äº¤æ˜“å¼•èµ·çš„åˆ†å¸ƒå¼æ­»é”é—®é¢˜ https://blog.csdn.net/claram/article/details/77853472ï¼ˆæ”¹å˜åŠ é”çš„é¡ºåºï¼‰
 
-²¢·¢±à³Ì¡ª¡ªConcurrentHashMap#helpTransfer()·ÖÎö https://www.jianshu.com/p/39b747c99d32£¨sizeCtl×´Ì¬£¬Ç°16Î»ÊÇ±êÊ¶·û£¬ºó16Î»ÊÇ°ïÖúÀ©ÈİµÄÏß³ÌÊıÁ¿£©
+å¹¶å‘ç¼–ç¨‹â€”â€”ConcurrentHashMap#helpTransfer()åˆ†æ https://www.jianshu.com/p/39b747c99d32ï¼ˆsizeCtlçŠ¶æ€ï¼Œå‰16ä½æ˜¯æ ‡è¯†ç¬¦ï¼Œå16ä½æ˜¯å¸®åŠ©æ‰©å®¹çš„çº¿ç¨‹æ•°é‡ï¼‰
 
-SSL/Ğ­ÒéÔËĞĞ»úÖÆµÄ¸ÅÊö http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html
+SSL/åè®®è¿è¡Œæœºåˆ¶çš„æ¦‚è¿° http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html
 
-Ö§¸¶ÏµÍ³×ªÕË¹ı³ÌÖĞ²¢·¢½»Ò×ÒıÆğµÄ·Ö²¼Ê½ËÀËøÎÊÌâ https://blog.csdn.net/claram/article/details/77853472
+æ”¯ä»˜ç³»ç»Ÿè½¬è´¦è¿‡ç¨‹ä¸­å¹¶å‘äº¤æ˜“å¼•èµ·çš„åˆ†å¸ƒå¼æ­»é”é—®é¢˜ https://blog.csdn.net/claram/article/details/77853472
 
-½âÊÍĞÍÓïÑÔ¡¢±àÒëĞÍÓïÑÔÒÔ¼°½Å±¾ÓïÑÔ https://baijiahao.baidu.com/s?id=1594923752307906159&wfr=spider&for=pc
-£¨½âÊÍĞÍÓïÑÔ£º²»ĞèÒª±àÒë£¬ÔËĞĞµÄÊ±ºòĞèÒªÒ»ĞĞÒ»ĞĞ·­Òë£©
+è§£é‡Šå‹è¯­è¨€ã€ç¼–è¯‘å‹è¯­è¨€ä»¥åŠè„šæœ¬è¯­è¨€ https://baijiahao.baidu.com/s?id=1594923752307906159&wfr=spider&for=pc
+ï¼ˆè§£é‡Šå‹è¯­è¨€ï¼šä¸éœ€è¦ç¼–è¯‘ï¼Œè¿è¡Œçš„æ—¶å€™éœ€è¦ä¸€è¡Œä¸€è¡Œç¿»è¯‘ï¼‰
 
-×Ö·û´®ºÍ±àÂë https://www.liaoxuefeng.com/wiki/1016959663602400/1017075323632896
+å­—ç¬¦ä¸²å’Œç¼–ç  https://www.liaoxuefeng.com/wiki/1016959663602400/1017075323632896
 
-Docker¾µÏñ·Ö²ã¼¼Êõ http://www.maiziedu.com/wiki/cloud/dockerimage/
+Dockeré•œåƒåˆ†å±‚æŠ€æœ¯ http://www.maiziedu.com/wiki/cloud/dockerimage/
 
-Docker¾µÏñ·Ö²ã¼¼Êõ http://www.maiziedu.com/wiki/cloud/relationship/
+Dockeré•œåƒåˆ†å±‚æŠ€æœ¯ http://www.maiziedu.com/wiki/cloud/relationship/
 
-docker°²×°tomcat&²¿Êğjavaweb³ÌĞò https://www.cnblogs.com/kaixinyufeng/p/9689982.html
+dockerå®‰è£…tomcat&éƒ¨ç½²javawebç¨‹åº https://www.cnblogs.com/kaixinyufeng/p/9689982.html
 
 docker+idea http://www.pianshen.com/article/9204177268/
 
-IDEA+Docker´ó·¨ https://www.jianshu.com/p/d931e7f47966
+IDEA+Dockerå¤§æ³• https://www.jianshu.com/p/d931e7f47966
 
-IntelliJ IDEA¿ìËÙÊµÏÖDocker¾µÏñ²¿Êğ https://cloud.tencent.com/developer/article/1370022
+IntelliJ IDEAå¿«é€Ÿå®ç°Dockeré•œåƒéƒ¨ç½² https://cloud.tencent.com/developer/article/1370022
 
-spring boot Ó¦ÓÃ·¢²¼µ½ docker (ÍêÕû°æ) https://blog.csdn.net/anxpp/article/details/73478883
+spring boot åº”ç”¨å‘å¸ƒåˆ° docker (å®Œæ•´ç‰ˆ) https://blog.csdn.net/anxpp/article/details/73478883
 
-windowsÏÂnginxµÄ°²×°¼°Ê¹ÓÃ https://www.cnblogs.com/jiangwangxiang/p/8481661.html
+windowsä¸‹nginxçš„å®‰è£…åŠä½¿ç”¨ https://www.cnblogs.com/jiangwangxiang/p/8481661.html
 
-NginxÅäÖÃÏê½â https://www.cnblogs.com/knowledgesea/p/5175711.html
+Nginxé…ç½®è¯¦è§£ https://www.cnblogs.com/knowledgesea/p/5175711.html
 
-Spring cloud eureka ÈëÃÅÊ¹ÓÃ¼°Ö¸µ¼ËµÃ÷£¨µ¥»úÆª£© https://blog.csdn.net/hh652400660/article/details/79474419
+Spring cloud eureka å…¥é—¨ä½¿ç”¨åŠæŒ‡å¯¼è¯´æ˜ï¼ˆå•æœºç¯‡ï¼‰ https://blog.csdn.net/hh652400660/article/details/79474419
 
-mavenÑ§Ï°£¨ÉÏ£©- »ù±¾ÈëÃÅÓÃ·¨ https://www.cnblogs.com/yjmyzz/p/3495762.html
-£¨mvn archetype:generate¹¹½¨Ò»¸ömavenÏîÄ¿¡¢
-mvn clean compile±àÒë¡¢
-mvn clean testµ¥Ôª²âÊÔ¡¢
-mvn clean install°ÑÉú³ÉµÄjar°ü£¬°²×°µ½¡°±¾µØ²Ö¿â¡±¡¢
-mvn clean pacakge´ò°üwar»òjar°ü£©
-mavenÑ§Ï°£¨ÖĞ£©- Ë½·şnexus´î½¨ https://www.cnblogs.com/yjmyzz/p/3519373.html
-mavenÑ§Ï°£¨ÏÂ£©ÀûÓÃProfile¹¹½¨²»Í¬»·¾³µÄ²¿Êğ°ü https://www.cnblogs.com/yjmyzz/p/3941043.html
-£¨profileµÄÊ¹ÓÃ£¬maven package -P devÖ¸¶¨dev»·¾³£©
-maven¸ü¸Ä¾µÏñÂ·¾¶Îª°¢Àï¾µÏñ£¬ÒÔ±ãÏÂÔØËÙ¶È¿ì https://www.cnblogs.com/panxuejun/p/6140768.html
+mavenå­¦ä¹ ï¼ˆä¸Šï¼‰- åŸºæœ¬å…¥é—¨ç”¨æ³• https://www.cnblogs.com/yjmyzz/p/3495762.html
+ï¼ˆmvn archetype:generateæ„å»ºä¸€ä¸ªmavené¡¹ç›®ã€
+mvn clean compileç¼–è¯‘ã€
+mvn clean testå•å…ƒæµ‹è¯•ã€
+mvn clean installæŠŠç”Ÿæˆçš„jaråŒ…ï¼Œå®‰è£…åˆ°â€œæœ¬åœ°ä»“åº“â€ã€
+mvn clean pacakgeæ‰“åŒ…waræˆ–jaråŒ…ï¼‰
+mavenå­¦ä¹ ï¼ˆä¸­ï¼‰- ç§æœnexusæ­å»º https://www.cnblogs.com/yjmyzz/p/3519373.html
+mavenå­¦ä¹ ï¼ˆä¸‹ï¼‰åˆ©ç”¨Profileæ„å»ºä¸åŒç¯å¢ƒçš„éƒ¨ç½²åŒ… https://www.cnblogs.com/yjmyzz/p/3941043.html
+ï¼ˆprofileçš„ä½¿ç”¨ï¼Œmaven package -P devæŒ‡å®šdevç¯å¢ƒï¼‰
+mavenæ›´æ”¹é•œåƒè·¯å¾„ä¸ºé˜¿é‡Œé•œåƒï¼Œä»¥ä¾¿ä¸‹è½½é€Ÿåº¦å¿« https://www.cnblogs.com/panxuejun/p/6140768.html
 
-²¢·¢±à³ÌÍø MavenÈëÃÅ£¨Ò»£©http://ifeve.com/maven-1/
-²¢·¢±à³ÌÍø MavenÈëÃÅ£¨¶ş£©http://ifeve.com/maven-2/
+å¹¶å‘ç¼–ç¨‹ç½‘ Mavenå…¥é—¨ï¼ˆä¸€ï¼‰http://ifeve.com/maven-1/
+å¹¶å‘ç¼–ç¨‹ç½‘ Mavenå…¥é—¨ï¼ˆäºŒï¼‰http://ifeve.com/maven-2/
 
-Spring-data-jpa Ñ§Ï°±Ê¼Ç£¨Ò»£© https://www.cnblogs.com/zeng1994/p/7575606.html
-Spring-data-jpa Ñ§Ï°±Ê¼Ç£¨¶ş£© https://www.cnblogs.com/zeng1994/p/7627267.html
-Spring Data JPA ÊµÀı²éÑ¯£¨exampleµÄÊ¹ÓÃ£© https://www.cnblogs.com/rulian/p/6533109.html
-spring boot ÖĞÊ¹ÓÃ jpaÒÔ¼°jpa½éÉÜ https://blog.csdn.net/wujiaqi0921/article/details/78789087
-SpringBootÊµÏÖOAuth2ÈÏÖ¤·şÎñÆ÷ https://www.cnblogs.com/LOVE0612/p/9913336.html
-Spring Boot+Spring Security»ùÓÚRBACÈ¨ÏŞ¿ØÖÆ https://blog.csdn.net/weixin_33819479/article/details/88178017
-springbootÑ§Ï°±Ê¼Ç-5 springbootÕûºÏshiro https://www.cnblogs.com/hlhdidi/p/6376457.html
-Shiro ÖĞµÄ SecurityUtils https://www.jianshu.com/p/cf95e3468638
+Spring-data-jpa å­¦ä¹ ç¬”è®°ï¼ˆä¸€ï¼‰ https://www.cnblogs.com/zeng1994/p/7575606.html
+Spring-data-jpa å­¦ä¹ ç¬”è®°ï¼ˆäºŒï¼‰ https://www.cnblogs.com/zeng1994/p/7627267.html
+Spring Data JPA å®ä¾‹æŸ¥è¯¢ï¼ˆexampleçš„ä½¿ç”¨ï¼‰ https://www.cnblogs.com/rulian/p/6533109.html
+spring boot ä¸­ä½¿ç”¨ jpaä»¥åŠjpaä»‹ç» https://blog.csdn.net/wujiaqi0921/article/details/78789087
+SpringBootå®ç°OAuth2è®¤è¯æœåŠ¡å™¨ https://www.cnblogs.com/LOVE0612/p/9913336.html
+Spring Boot+Spring SecurityåŸºäºRBACæƒé™æ§åˆ¶ https://blog.csdn.net/weixin_33819479/article/details/88178017
+springbootå­¦ä¹ ç¬”è®°-5 springbootæ•´åˆshiro https://www.cnblogs.com/hlhdidi/p/6376457.html
+Shiro ä¸­çš„ SecurityUtils https://www.jianshu.com/p/cf95e3468638
 
-shiro jwt ¹¹½¨ÎŞ×´Ì¬·Ö²¼Ê½¼øÈ¨ÌåÏµ https://wangjie2016.iteye.com/blog/2406870
-£¨½â¾öÎ¢·şÎñÖĞÈÏÖ¤¼øÈ¨ÎÊÌâ£¬ºÃÎÄ£¡£¡£¡£©
+shiro jwt æ„å»ºæ— çŠ¶æ€åˆ†å¸ƒå¼é‰´æƒä½“ç³» https://wangjie2016.iteye.com/blog/2406870
+ï¼ˆè§£å†³å¾®æœåŠ¡ä¸­è®¤è¯é‰´æƒé—®é¢˜ï¼Œå¥½æ–‡ï¼ï¼ï¼ï¼‰
 
-ÏîÄ¿ÍÆ¼ö jsets-shiro-spring-boot-starter
-£¨springbootÖĞÊ¹ÓÃshiro´ó¶¼ÊÇÍ¨¹ıshiro-spring.jar½øĞĞµÄÕûºÏµÄ,ËäÈ»²»ÊÇÌ«¸´ÔÓ£¬µ«ÊÇÒ²ÎŞ·¨×öµ½spring-boot-starter·ç¸ñµÄ¿ªÏä¼´ÓÃ¡£
-ÏîÄ¿ÖĞ¾­³£ÓÃµ½µÄ¹¦ÄÜ±ÈÈç£ºÑéÖ¤Âë¡¢ÃÜÂë´íÎó´ÎÊıÏŞÖÆ¡¢ÕËºÅÎ¨Ò»ÓÃ»§µÇÂ½¡¢¶¯Ì¬URL¹ıÂË¹æÔò¡¢ÎŞ×´Ì¬¼øÈ¨µÈµÈ£¬shiro»¹Ã»ÓĞÖ±½ÓÌá¹©Ö§³Ö¡£
-jsets-shiro-spring-boot-starter¶ÔÕâĞ©³£ÓÃµÄ¹¦ÄÜ½øĞĞÁË·â×°ºÍ×Ô¶¯µ¼Èë£¬ÉÙÁ¿µÄÅäÖÃ¾Í¿ÉÒÔÓ¦ÓÃÔÚÏîÄ¿ÖĞ¡££©
+é¡¹ç›®æ¨è jsets-shiro-spring-boot-starter
+ï¼ˆspringbootä¸­ä½¿ç”¨shiroå¤§éƒ½æ˜¯é€šè¿‡shiro-spring.jarè¿›è¡Œçš„æ•´åˆçš„,è™½ç„¶ä¸æ˜¯å¤ªå¤æ‚ï¼Œä½†æ˜¯ä¹Ÿæ— æ³•åšåˆ°spring-boot-starteré£æ ¼çš„å¼€ç®±å³ç”¨ã€‚
+é¡¹ç›®ä¸­ç»å¸¸ç”¨åˆ°çš„åŠŸèƒ½æ¯”å¦‚ï¼šéªŒè¯ç ã€å¯†ç é”™è¯¯æ¬¡æ•°é™åˆ¶ã€è´¦å·å”¯ä¸€ç”¨æˆ·ç™»é™†ã€åŠ¨æ€URLè¿‡æ»¤è§„åˆ™ã€æ— çŠ¶æ€é‰´æƒç­‰ç­‰ï¼Œshiroè¿˜æ²¡æœ‰ç›´æ¥æä¾›æ”¯æŒã€‚
+jsets-shiro-spring-boot-starterå¯¹è¿™äº›å¸¸ç”¨çš„åŠŸèƒ½è¿›è¡Œäº†å°è£…å’Œè‡ªåŠ¨å¯¼å…¥ï¼Œå°‘é‡çš„é…ç½®å°±å¯ä»¥åº”ç”¨åœ¨é¡¹ç›®ä¸­ã€‚ï¼‰
 
-SwaggerÊ¹ÓÃÖ¸ÄÏ https://blog.csdn.net/sanyaoxu_2/article/details/80555328
-»ùÓÚHMACµÄrest api¼øÈ¨´¦Àí https://www.jianshu.com/p/b0a577708a7b
-¡¾Ğ´·¨¹æ·¶¡¿-- Éè¼ÆÇëÇó·µ»Ø½Ó¿ÚÓë·â×° https://www.cnblogs.com/jsyllhb/p/10548169.html
+Swaggerä½¿ç”¨æŒ‡å— https://blog.csdn.net/sanyaoxu_2/article/details/80555328
+åŸºäºHMACçš„rest apié‰´æƒå¤„ç† https://www.jianshu.com/p/b0a577708a7b
+ã€å†™æ³•è§„èŒƒã€‘-- è®¾è®¡è¯·æ±‚è¿”å›æ¥å£ä¸å°è£… https://www.cnblogs.com/jsyllhb/p/10548169.html
 
-JPAÖĞ×Ô¶¯Ê¹ÓÃ@Table(name = "userTab")ºó×Ô¶¯½«±íÃû¡¢ÁĞÃûÌí¼ÓÁËÏÂ»®ÏßµÄÎÊÌâ https://www.cnblogs.com/songxingzhu/p/9835683.html
-µÚ¶şÊ®ÕÂ ÎŞ×´Ì¬WebÓ¦ÓÃ¼¯³É¡ª¡ª¡¶¸úÎÒÑ§Shiro¡·https://jinnianshilongnian.iteye.com/blog/2041909
+JPAä¸­è‡ªåŠ¨ä½¿ç”¨@Table(name = "userTab")åè‡ªåŠ¨å°†è¡¨åã€åˆ—åæ·»åŠ äº†ä¸‹åˆ’çº¿çš„é—®é¢˜ https://www.cnblogs.com/songxingzhu/p/9835683.html
+ç¬¬äºŒåç«  æ— çŠ¶æ€Webåº”ç”¨é›†æˆâ€”â€”ã€Šè·Ÿæˆ‘å­¦Shiroã€‹https://jinnianshilongnian.iteye.com/blog/2041909
 
-¡¾spring data jpa¡¿spring data jpa ÖĞµÄupdate ¸üĞÂ×Ö¶Î£¬Èç¹ûÔ­×Ö¶ÎÖµÎªnull²»´¦Àí£¬²»ÎªnullÔòÔÚÔ­À´µÄÖµÉÏ¼ÓÒ»¶Î×Ö·û´® http://www.bubuko.com/infodetail-2653308.html
-MD5¼ÓÃÜ+¼ÓÑÎ 
-SpringBoot+ShiroÊµÏÖµÇÂ½À¹½Ø¹¦ÄÜ https://www.cnblogs.com/peaceliu/p/7825706.html
+ã€spring data jpaã€‘spring data jpa ä¸­çš„update æ›´æ–°å­—æ®µï¼Œå¦‚æœåŸå­—æ®µå€¼ä¸ºnullä¸å¤„ç†ï¼Œä¸ä¸ºnullåˆ™åœ¨åŸæ¥çš„å€¼ä¸ŠåŠ ä¸€æ®µå­—ç¬¦ä¸² http://www.bubuko.com/infodetail-2653308.html
+MD5åŠ å¯†+åŠ ç› 
+SpringBoot+Shiroå®ç°ç™»é™†æ‹¦æˆªåŠŸèƒ½ https://www.cnblogs.com/peaceliu/p/7825706.html
+
+ä½¿ç”¨redisçš„listç»“æ„å®ç°ç§’æ€ https://my.oschina.net/chinaxy/blog/1829233
