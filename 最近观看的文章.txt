@@ -340,3 +340,7 @@ windows后台启动redis redis-server --service-start redis.windows-service.conf
 
 https://www.cnblogs.com/devise/p/10959885.html spring中实现基于注解实现动态的接口限流防刷
 （原理：redis记录用户请求次数，使用spring拦截器获得每个controller方法上面注解的调用次数限制，去redis获取调用次数进行比对）
+
+高并发下一些常用的限流和防刷举例 https://www.2cto.com/kf/201804/740024.html
+（nginx限流、令牌桶算法、漏桶算法、lua+redis）
+
