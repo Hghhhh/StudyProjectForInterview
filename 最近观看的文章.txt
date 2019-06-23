@@ -333,3 +333,10 @@ SpringBoot+Shiro实现登陆拦截功能 https://www.cnblogs.com/peaceliu/p/7825
 使用redis的list结构实现秒杀 https://my.oschina.net/chinaxy/blog/1829233
 
 springboot + swagger https://www.ibm.com/developerworks/cn/java/j-using-swagger-in-a-spring-boot-project/index.html
+
+ubuntu安装java8 sudo apt install openjdk-8-jdk 
+
+windows后台启动redis redis-server --service-start redis.windows-service.conf
+
+https://www.cnblogs.com/devise/p/10959885.html spring中实现基于注解实现动态的接口限流防刷
+（原理：redis记录用户请求次数，使用spring拦截器获得每个controller方法上面注解的调用次数限制，去redis获取调用次数进行比对）
