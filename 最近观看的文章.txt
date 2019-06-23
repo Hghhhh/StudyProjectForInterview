@@ -344,3 +344,6 @@ https://www.cnblogs.com/devise/p/10959885.html spring中实现基于注解实现
 高并发下一些常用的限流和防刷举例 https://www.2cto.com/kf/201804/740024.html
 （nginx限流、令牌桶算法、漏桶算法、lua+redis）
 
+几种常见的限流算法 https://blog.csdn.net/linhui258/article/details/81155622
+
+死磕Ngix限流配置 https://www.cnblogs.com/biglittleant/p/8979915.html
