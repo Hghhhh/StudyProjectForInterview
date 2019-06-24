@@ -347,3 +347,12 @@ https://www.cnblogs.com/devise/p/10959885.html spring中实现基于注解实现
 几种常见的限流算法 https://blog.csdn.net/linhui258/article/details/81155622
 
 死磕Ngix限流配置 https://www.cnblogs.com/biglittleant/p/8979915.html
+
+Nginx 限流 https://colobu.com/2015/10/26/nginx-limit-modules/
+
+nginx(四)高并发情况限流以及白名单配置 https://my.oschina.net/chenxiaobian/blog/888196
+
+Nginx限速模块初探 https://www.cnblogs.com/CarpenterLee/p/8084533.html
+
+JMeter安装 https://www.cnblogs.com/wxh04/p/7754156.html
+使用Jmeter进行接口测试和压力测试的配置和使用 https://blog.csdn.net/m0_37529303/article/details/75453230
