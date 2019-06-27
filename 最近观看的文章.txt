@@ -359,3 +359,7 @@ Nginx限速模块初探 https://www.cnblogs.com/CarpenterLee/p/8084533.html
 
 JMeter安装 https://www.cnblogs.com/wxh04/p/7754156.html
 使用Jmeter进行接口测试和压力测试的配置和使用 https://blog.csdn.net/m0_37529303/article/details/75453230
+
+react官方快速入门 https://react.docschina.org/docs/hello-world.html
+阮一峰react教程 http://www.ruanyifeng.com/blog/2015/03/react.html
+Redux入门1 http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
