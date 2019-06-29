@@ -371,3 +371,4 @@ RPC TAF（TARS） 框架 初学 https://blog.csdn.net/zhougb3/article/details/80
 Spring Cloud源码分析（一）Eureka http://blog.didispace.com/springcloud-sourcecode-eureka/
 （eureka的服务注册、“服务获取”、“服务续约“，都是通过http的方式来做的，感觉性能上面没有rpc框架好）
 Spring Cloud源码分析（二）Ribbon http://blog.didispace.com/springcloud-sourcecode-ribbon/
+RedisTemple的pipeline的用法 https://www.jianshu.com/p/d5399fca2f72
