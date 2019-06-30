@@ -372,3 +372,8 @@ Spring Cloud源码分析（一）Eureka http://blog.didispace.com/springcloud-so
 （eureka的服务注册、“服务获取”、“服务续约“，都是通过http的方式来做的，感觉性能上面没有rpc框架好）
 Spring Cloud源码分析（二）Ribbon http://blog.didispace.com/springcloud-sourcecode-ribbon/
 RedisTemple的pipeline的用法 https://www.jianshu.com/p/d5399fca2f72
+
+rabbitmq——用户管理 https://www.cnblogs.com/AloneSword/p/4200051.html
+
+Java8新特性--CompletableFuture https://www.cnblogs.com/kexianting/p/8692437.html
+（还不是很理解，待看）
