@@ -377,3 +377,4 @@ rabbitmq——用户管理 https://www.cnblogs.com/AloneSword/p/4200051.html
 
 Java8新特性--CompletableFuture https://www.cnblogs.com/kexianting/p/8692437.html
 （还不是很理解，待看）
+CompletableFuture基本用法 https://www.cnblogs.com/cjsblog/p/9267163.html
