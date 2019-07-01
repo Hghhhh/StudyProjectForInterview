@@ -359,3 +359,23 @@ Nginx限速模块初探 https://www.cnblogs.com/CarpenterLee/p/8084533.html
 
 JMeter安装 https://www.cnblogs.com/wxh04/p/7754156.html
 使用Jmeter进行接口测试和压力测试的配置和使用 https://blog.csdn.net/m0_37529303/article/details/75453230
+
+react官方快速入门 https://react.docschina.org/docs/hello-world.html
+阮一峰react教程 http://www.ruanyifeng.com/blog/2015/03/react.html
+Redux入门1 http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
+RPC TAF（TARS） 框架 初学 https://blog.csdn.net/zhougb3/article/details/80403125
+(腾讯开源rpc框架)
+你应该知道的RPC原理 https://www.cnblogs.com/LBSer/p/4853234.html
+彻底理解Netty，这一篇文章就够了 - 掘金 https://juejin.im/post/5bdaf8ea6fb9a0227b02275a
+（感觉目前自己实力还不够，netty是必须要了解的，对看以后RPC框架有很大帮助）
+Spring Cloud源码分析（一）Eureka http://blog.didispace.com/springcloud-sourcecode-eureka/
+（eureka的服务注册、“服务获取”、“服务续约“，都是通过http的方式来做的，感觉性能上面没有rpc框架好）
+Spring Cloud源码分析（二）Ribbon http://blog.didispace.com/springcloud-sourcecode-ribbon/
+RedisTemple的pipeline的用法 https://www.jianshu.com/p/d5399fca2f72
+
+rabbitmq——用户管理 https://www.cnblogs.com/AloneSword/p/4200051.html
+
+Java8新特性--CompletableFuture https://www.cnblogs.com/kexianting/p/8692437.html
+（还不是很理解，待看）
+CompletableFuture基本用法 https://www.cnblogs.com/cjsblog/p/9267163.html
+Future模式之CompletableFuture https://www.liangzl.com/get-article-detail-97192.html
