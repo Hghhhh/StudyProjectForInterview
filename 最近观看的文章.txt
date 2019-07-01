@@ -379,3 +379,8 @@ Java8新特性--CompletableFuture https://www.cnblogs.com/kexianting/p/8692437.h
 （还不是很理解，待看）
 CompletableFuture基本用法 https://www.cnblogs.com/cjsblog/p/9267163.html
 Future模式之CompletableFuture https://www.liangzl.com/get-article-detail-97192.html
+Java 8 中的 Streams API 详解 https://www.ibm.com/developerworks/cn/java/j-lo-
+强大的Stream并行流_慕课手记 https://www.imooc.com/article/49318?block_id=tuijian_wz
+单点登录原理与简单实现 https://www.cnblogs.com/ywlaker/p/6113927.html
+Spring Security Oauth2 单点登录案例实现和执行流程剖析https://www.cnblogs.com/xifengxiaoma/p/10043173.html
+(深入源码的好文，认真看一遍，理解Spring Security OAuth2的认证授权流程！！！)
