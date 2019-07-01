@@ -384,3 +384,6 @@ Java 8 中的 Streams API 详解 https://www.ibm.com/developerworks/cn/java/j-lo
 单点登录原理与简单实现 https://www.cnblogs.com/ywlaker/p/6113927.html
 Spring Security Oauth2 单点登录案例实现和执行流程剖析https://www.cnblogs.com/xifengxiaoma/p/10043173.html
 (深入源码的好文，认真看一遍，理解Spring Security OAuth2的认证授权流程！！！)
+
+深入聊聊微服务架构的身份认证问题
+ https://www.infoq.cn/article/identity-authentication-of-architecture-in-micro-service
