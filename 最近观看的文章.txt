@@ -21,7 +21,6 @@ ReentrantLock读写锁降级https://blog.csdn.net/qq_29842929/article/details/81
 
 LockSupport https://www.cnblogs.com/qingquanzi/p/8228422.html
 
-
 美团对于Redis Rehash的探索：https://www.cnblogs.com/meituantech/p/9376472.html
 Redis字典的rehash源码分析的https://www.cnblogs.com/chinajava/p/5808416.html
 （rehash的时候通过rehashidx来标记rehash到的桶的下标，下次进行增/删/查/改的时候都会把rehashidx桶中的每个节点rehash到ht[1]，
@@ -341,6 +340,8 @@ windows后台启动redis redis-server --service-start redis.windows-service.conf
 https://www.cnblogs.com/devise/p/10959885.html spring中实现基于注解实现动态的接口限流防刷
 （原理：redis记录用户请求次数，使用spring拦截器获得每个controller方法上面注解的调用次数限制，去redis获取调用次数进行比对）
 
+openJdk怎么设置java_home https://blog.csdn.net/redmoon729/article/details/51671354
+
 高并发下一些常用的限流和防刷举例 https://www.2cto.com/kf/201804/740024.html
 （nginx限流、令牌桶算法、漏桶算法、lua+redis）
 
@@ -387,3 +388,19 @@ Spring Security Oauth2 单点登录案例实现和执行流程剖析https://www.
 
 深入聊聊微服务架构的身份认证问题
  https://www.infoq.cn/article/identity-authentication-of-architecture-in-micro-service
+
+一个简单的SpringBootStarter https://juejin.im/entry/58d37630570c350058c2c15c
+
+java注解(四种元注解：@Retention @Target @Document @Inherited) - - ITeye博客 https://wisfly.iteye.com/blog/2289443
+
+https://blog.csdn.net/get_set/article/details/79466657 
+响应式Spring的道法术器（Spring WebFlux 教程）
+
+UBUNTU 查看 JAVA安装路径 https://blog.csdn.net/love_xiaozhao/article/details/48101463
+
+https://blog.csdn.net/qq_36148847/article/details/80114283 Windows 安装 ZooKeeper
+
+https://juejin.im/post/5bf3f15851882526a643e207 Redisson实现Redis分布式锁的底层原理
+
+
+springboot Jar包 秒部署到Linux服务器运行 https://blog.csdn.net/whh18254122507/article/details/78011713

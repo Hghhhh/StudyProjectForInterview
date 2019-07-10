@@ -6,7 +6,7 @@ tags: java集合框架
 
 
 
-#JAVA集合框架
+# JAVA集合框架
 
 java三大集合框架 :  Set  List   Map
 
@@ -18,7 +18,7 @@ java三大集合框架 :  Set  List   Map
 
 <!--more-->
 
-##Set接口:  
+## Set接口:  
 
 无序可变的数组,不允许添加重复元素,如果视图把两个相同的元素加入到同一个集合中,add方法返回false.
 
@@ -26,7 +26,7 @@ set判断对象是否相同使用equals方法, 就是说返回true就表示两�
 
 需要注意的是:虽然Set中元素没有顺序，但是元素在set中的位置是有由该元素的HashCode决定的，其具体位置其实是固定的。
 
-###HashSet:
+### HashSet:
 
 不能保证元素的排列顺序,
 
@@ -51,7 +51,7 @@ public boolean add(E e) {
 
 
 
-###LinkedHashSet:
+### LinkedHashSet:
 
 LinkedHashSet集合同样是根据HashCode()方法来决定元素的存储位置,但是它同时使用链表维护元素的次序.这样使得元素看起来像是以插入顺序保存的,当遍历该集合的时候,LinkedHashSet将会以元素的添加顺序访问集合的元素.
 
@@ -61,7 +61,7 @@ LinkedHashSet集合同样是根据HashCode()方法来决定元素的存储位置
 
 LinkedHashSet在迭代访问Set中的全部元素时,性能比HashSet好,但是插入时性能稍逊色于HashSet.
 
-###TreeSet:
+### TreeSet:
 
 TreeSet是SortedSet接口的唯一实现类，TreeSet可以确保集合元素处于排序状态。**底层算法是基于TreeMap来实现的。**
 
@@ -72,22 +72,23 @@ TreeSet是SortedSet接口的唯一实现类，TreeSet可以确保集合元素处
 
 ​	c. TreeMap是使用Tree数据结构实现的,所以使用compare接口就可以完成定位了.
 
-##List接口:
+## List接口:
 
 一个 List 是一个元素有序的、可以重复、可以为 null 的集合（有时候我们也叫它“序列”）
-###ArrayList:
+
+###  ArrayList:
 
 用类似数组的形式进行存储，因此它的随机访问速度极快，缺点是插入和删除的速度慢，就像数组一样，每次插入和删除都需要移动数组中的元素。
 
 注意：
 
 - ArrayList默认长度是10
-- 扩容ensureCapacity的方案为“原始容量*3/2+1"
+- 扩容ensureCapaci ty的方案为“原始容量*3/2+1"
 - ArrayList是线程不安全的，在多线程的情况下不要使用。
 
 
 
-###LinkedList:
+### LinkedList:
 
 在实现中采用链表数据结构。插入和删除速度快，访问速度慢。 
 
@@ -115,7 +116,7 @@ Queue接口:暂时不讨论感兴趣的同学可以自行查找
 
 
 
-##Map接口:
+## Map接口:
 
 ![20170715001340612](https://3116004636-1256103796.cos.ap-guangzhou.myqcloud.com/20170715001340612.jpg)
 
@@ -123,7 +124,7 @@ Map是一种把键对象和值对象映射的集合，它的每一个元素都�
 
 另外前边已经说明了，Set接口的底层是基于Map接口实现的。Set中存储的值，其实就是Map中的key，它们都是不允许重复的。
 
-###HashTable:
+### HashTable:
 
 HashTable类实现一个哈希表，该哈希表将键映射到相应的值。默认容量为11。任何非 null 对象都可以用作键或值。为了成功地在哈希表中存储和获取对象，用作键的对象必须实现 hashCode 方法和 equals 方法。
 
@@ -206,11 +207,11 @@ final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
 
 LinkedHashMap实现与HashMap的不同之处在于，后者维护着一个运行于所有条目的双重链接列表。
 
-###TreeMap:
+### TreeMap:
 
 基于红黑树数据结构的实现。查看“键”或“键值对”时，它们会被排序(次序由Comparable或Comparator决定)。TreeMap的特点在于，你得到的结果是经过排序的。TreeMap是唯一的带有subMap()方法的Map，它可以返回一个子树。 
 
-###ConCurrentHashMap:
+### ConCurrentHashMap:
 
 HashTable容器在竞争激烈的并发环境下表现出效率低下的原因，是因为所有访问HashTable的线程都必须竞争同一把锁，那假如容器里有多把锁，每一把锁用于锁容器其中一部分数据，那么当多线程访问容器里不同数据段的数据时，线程间就不会存在锁竞争，从而可以有效的提高并发访问效率，这就是ConcurrentHashMap所使用的锁分段技术，首先将数据分成一段一段的存储，然后给每一段数据配一把锁，当一个线程占用锁访问其中一个段数据的时候，其他段的数据也能被其他线程访问。有些方法需要跨段，比如size()和containsValue()，它们可能需要锁定整个表而而不仅仅是某个段，这需要按顺序锁定所有段，操作完毕后，又按顺序释放所有段的锁。这里“按顺序”是很重要的，否则极有可能出现死锁，在ConcurrentHashMap内部，段数组是final的，并且其成员变量实际上也是final的，但是，仅仅是将数组声明为final的并不保证数组成员也是final的，这需要实现上的保证。这可以确保不会出现死锁，因为获得锁的顺序是固定的。
 
@@ -222,7 +223,7 @@ ConcurrentHashMap是由Segment数组结构和HashEntry数组结构组成。Segme
 
 参考：[[Java集合---ConcurrentHashMap原理分析](https://www.cnblogs.com/ITtangtang/p/3948786.html)](https://www.cnblogs.com/ITtangtang/p/3948786.html)
 
-##相关知识:
+## 相关知识:
 
 迭代器(Iterator)
 提供一种方法访问一个容器（container）对象中各个元素，而又不需暴露该对象的内部细节。
