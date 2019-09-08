@@ -407,3 +407,5 @@ springboot Jar包 秒部署到Linux服务器运行 https://blog.csdn.net/whh1825
 
 Zookeeper入门看这篇就够了 https://blog.csdn.net/java_66666/article/details/81015302
 （一个文件系统，客户端监听节点）
+利用Zookeeper实现 - 分布式锁 https://www.jianshu.com/p/a974eec257e6
+（Apache Curator是一个Zookeeper的开源客户端，它提供了Zookeeper各种应用场景（Recipe，如共享锁服务、master选举、分布式计数器等）的抽象封装）
