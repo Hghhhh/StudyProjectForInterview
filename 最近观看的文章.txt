@@ -404,3 +404,6 @@ https://juejin.im/post/5bf3f15851882526a643e207 Redisson实现Redis分布式锁�
 
 
 springboot Jar包 秒部署到Linux服务器运行 https://blog.csdn.net/whh18254122507/article/details/78011713
+
+Zookeeper入门看这篇就够了 https://blog.csdn.net/java_66666/article/details/81015302
+（一个文件系统，客户端监听节点）
