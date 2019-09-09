@@ -409,3 +409,6 @@ Zookeeper入门看这篇就够了 https://blog.csdn.net/java_66666/article/detai
 （一个文件系统，客户端监听节点）
 利用Zookeeper实现 - 分布式锁 https://www.jianshu.com/p/a974eec257e6
 （Apache Curator是一个Zookeeper的开源客户端，它提供了Zookeeper各种应用场景（Recipe，如共享锁服务、master选举、分布式计数器等）的抽象封装）
+
+什么是拓扑排序 https://www.jianshu.com/p/b59db381561a
+（有向无序图遍历，使用邻接表的方式，记录入度为0的顶点，由于输出每个顶点的同时还要删除以它为起点的边，故上述拓扑排序的时间复杂度为O(V+E)）
