@@ -817,7 +817,7 @@ slave前面已经有了master数据了，再次同步master的数据
    - 单主节点复制风暴：原因是主节点重启多从节点负载，解决方法是更换复制拓扑
    - 单机器复制风暴：解决办法是主节点分散多机器
 
-##Sentinel（哨兵）
+## Sentinel（哨兵）
 
 ![](https://3116004636-1256103796.cos.ap-guangzhou.myqcloud.com/redis/sentinel.jpg)
 
@@ -932,7 +932,7 @@ sentinel is-master-down-by-addr
 
 
 
-###节点运维：
+### 节点运维：
 
 1. 手动下线master：
 
@@ -1113,11 +1113,11 @@ eg: redis-cli - 127.0.0.1 -p 7003 cluster replicate ${node-id-7000}
 
 参考：[Redis Cluster集群](https://www.cnblogs.com/lykxqhh/p/5690923.html)
 
-###客户端重定向
+### 客户端重定向
 
 cluster根据槽的位置重定向客户端到某个节点
 
-####moved重定向
+#### moved重定向
 
 ![](https://3116004636-1256103796.cos.ap-guangzhou.myqcloud.com/redis/moved%E9%87%8D%E5%AE%9A%E5%90%91.jpg)
 
@@ -1200,7 +1200,7 @@ cluster苛刻的要求：mget和mset操作的数据必须在同一个节点上
 
   ![](https://3116004636-1256103796.cos.ap-guangzhou.myqcloud.com/redis/%E5%B0%9D%E8%AF%95%E5%AE%A2%E8%A7%82%E4%B8%8B%E7%BA%BF.jpg)
 
-####故障恢复
+#### 故障恢复
 
 发现故障后，进行故障恢复
 
@@ -1222,7 +1222,7 @@ cluster苛刻的要求：mget和mset操作的数据必须在同一个节点上
 
   (3)向集群广播自己的pong信息，表明已经替换了故障从节点
 
-###Redis Cluster开发运维常见问题
+### Redis Cluster开发运维常见问题
 
 - 集群完整性：
 
