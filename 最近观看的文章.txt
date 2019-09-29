@@ -1,0 +1,414 @@
+﻿
+内核态和用户态：https://www.cnblogs.com/shangxiaofei/p/5567776.html、https://www.cnblogs.com/shangxiaofei/p/5567776.html
+内核态可以访问内存所有数据，包括进程管理、存储管理、文件管理、设备管理
+用户态只能受限的访问内存, 且不允许访问外围设备. 占用CPU的能力被剥夺, CPU资源可以被其他程序获取
+为什么划分用户态内核态：防止用户程序恶意破坏系统
+
+Unsafe类应用解析：https://www.cnblogs.com/shangxiaofei/p/10489485.html
+
+mybatis的缓存机制：https://www.cnblogs.com/ysocean/p/7342498.html
+
+Linux中的TCP配置：https://blog.csdn.net/iteye_11158/article/details/81925517、
+https://www.jb51.net/article/114073.htm
+
+tcp粘包
+
+DHCP协议（局域网用来主机用来获得ip地址的，discover、offer、request、ack）  https://www.cnblogs.com/myworld7/p/8413659.html
+
+AQS源码分析 https://www.cnblogs.com/waterystone/p/4920797.html
+
+ReentrantLock读写锁降级https://blog.csdn.net/qq_29842929/article/details/81188824
+
+LockSupport https://www.cnblogs.com/qingquanzi/p/8228422.html
+
+美团对于Redis Rehash的探索：https://www.cnblogs.com/meituantech/p/9376472.html
+Redis字典的rehash源码分析的https://www.cnblogs.com/chinajava/p/5808416.html
+（rehash的时候通过rehashidx来标记rehash到的桶的下标，下次进行增/删/查/改的时候都会把rehashidx桶中的每个节点rehash到ht[1]，
+可以确定的是，rehash完成之后，）
+
+Redis复制上 ：https://www.cnblogs.com/MrHSR/p/10100490.html
+Redis复制下 ：https://www.cnblogs.com/MrHSR/p/10108158.html
+
+共识算法 https://www.jianshu.com/p/8e4bbe7e276c
+
+Redis数据丢失 https://blog.csdn.net/u012322399/article/details/80743173
+
+主从数据不一致 https://segmentfault.com/a/1190000013144617
+
+
+Mysql的半同步复制https://www.cnblogs.com/ivictor/p/5735580.html
+
+Mysql的半同步Loss-Less模式 https://blog.csdn.net/win_man/article/details/81674942
+
+redis读写分离的时候，从库中读取到了已经过期的key，假如没有主库操作过该key，则从库中的key在很长时间之后才删除掉
+ https://blog.csdn.net/cuqa12315/article/details/85596142（当是这样主库的惰性删除功能其实没有起作用）
+
+计算位中的汉明重量SWAR：https://www.cnblogs.com/katsura/p/5686138.html
+
+linux下redis执行bgsave时，报overcommit_memory错误问题 http://itindex.net/detail/53673-linux-redis-bgsave
+
+
+Redis集群与插槽分配(动态新增或删除结点) https://blog.csdn.net/it_hejinrong/article/details/79205528s
+
+CRC16算法（计算键的CRC码&16383就可以得到槽的位置，待看）https://blog.csdn.net/xing414736597/article/details/78693781
+
+聊一聊分布式锁的设计（转）
+
+缓存击穿、失效及热点key问题 https://www.cnblogs.com/peteremperor/p/7342119.html
+（热点key的解决：本地缓存、把热点key分为多个子key，这些子key存储的值和热点key是一样的，每次通过hash算法随机决定要到哪个key）
+
+拉勾网《32个Java面试必考点》学习笔记之十------缓存(Redis与Memcache)https://blog.csdn.net/werqerwer/article/details/88532950#_12
+
+
+CGLib和动态代理的区别 https://blog.csdn.net/qq_34310242/article/details/78046384
+
+Spring的事务传播机制 https://www.cnblogs.com/softidea/p/5962612.html
+
+PropertyPlaceholderConfigurer读取配置文件（Springboot中的类，继承了BeanFactoryPostProcessor） https://www.cnblogs.com/dream-to-pku/p/6367396.html
+
+Spring 常用的两种PropertyPlaceholderConfigurer https://www.jianshu.com/p/a3c7ff0de5ac
+
+适配器https://blog.51cto.com/haolloyin/346128
+（
+上面这种实现的适配器称为类适配器，因为 Adapter 类既继承了 Adaptee （被适配类），
+也实现了 Target 接口（因为 Java 不支持多继承，所以这样来实现），
+在 Client 类中我们可以根据需要选择并创建任一种符合需求的子类，来实现具体功能。
+另外一种适配器模式是对象适配器，它不是使用多继承或继承再实现的方式，而是使用直接关联，或者称为委托的方式
+）
+
+SpringMVC的适配器 https://blog.csdn.net/u010288264/article/details/53835185
+（可以看到处理器（宽泛的概念Controller，以及HttpRequestHandler，Servlet，等等）的类型不同，
+有多重实现方式，那么调用方式就不是确定的，
+如果需要直接调用Controller方法，
+需要调用的时候就得不断是使用if else来进行判断是哪一种子类然后执行。
+那么如果后面要扩展（宽泛的概念Controller，以及HttpRequestHandler，Servlet，等等）Controller，
+就得修改原来的代码，这样违背了开闭原则（对修改关闭，对扩展开放）。
+）
+
+
+SpringMVC的filter和interceptor https://blog.csdn.net/dshf_1/article/details/81112595
+
+POJO、PO、BO、VO、DTO、DAO： https://blog.csdn.net/u011870547/article/details/81077153
+（pojo普通java对象，中间对象，可以转成po、vo等；PO持久化java对象，entity，对应数据库中的一条记录）
+（bo业务对象，可以看出service层的对象；vo视图对象比如web对象、swing对象）
+（dto数据传输对象；dao：数据访问对象，封装对db的访问操作，接收来自bo层的数据，把pojo持久化为po）
+
+Spring的FactoryBean：https://blog.csdn.net/zknxx/article/details/79572387、
+https://www.cnblogs.com/aspirant/p/9082858.html、
+https://www.cnblogs.com/quanyongan/p/4133724.html
+（FactoryBean是一个工厂Bean，可以生成某一个类型Bean实例，它最大的一个作用是：可以让我们自定义Bean的创建过程。
+用户可以通过实现该接口定制实例化Bean的逻辑。FactoryBean和普通bean不一样，我们getBean（“factoryBean”）拿个FactoryBean的
+时候返回的是FactoryBean的getObejct()返回的对象，这个对象可以根据isSingleTon()来决定是否单例，
+当我们通过getBean（“xyz.class”）想拿某个类的实例的时候，扫描Spring创建的几种特殊的单例bean（比如Environment），
+如果这个是bean是FactoryBean的话，判断getType()是否和我们传的type一样，如果一样就返回getObject()创建的对象）
+
+Spring自动配装 https://www.cnblogs.com/sishang/p/6583057.html
+
+HashMap1.8为何改用头插法？ https://blog.csdn.net/qq_43193797/article/details/86738398
+（1.7的头插法并不比1.8的尾插高效，原因是1.7和1.8都要判断key是否重复，这时候都会遍历链表，
+而1.7是遍历完成后没有重复就头插，
+1.8是如果没有重复，遍历到最后一个，直接尾插，两者都需要遍历链表）
+
+Mysql中的组合索引长什么样子？https://www.jianshu.com/p/35588ecf33c1
+
+僵尸进程、孤儿进程 https://www.cnblogs.com/Anker/p/3271773.html
+
+进程线程协程https://www.cnblogs.com/guolei2570/p/8810536.html
+
+java的Stream https://www.cnblogs.com/andywithu/p/7404101.html
+
+垃圾收集器 https://www.cnblogs.com/ityouknow/p/5614961.html
+
+深入理解Synchronized实现原理 https://www.imooc.com/article/34475
+
+命名管道 https://www.cnblogs.com/wuchanming/p/4381510.html
+
+你不可不知的Java引用类型之——虚引用 https://www.cnblogs.com/mfrank/p/9837070.html
+（虚引用不会对引用的对象产生影响，唯一的作用是在对象被回收的时候收到一个系统通知）
+（事实上，虚引用有一个很重要的用途就是用来做堆外内存的释放，DirectByteBuffer就是通过虚引用来实现堆外内存的释放的。）
+
+git fetch和git pull的区别（git pull = git fetch+git merge） https://blog.csdn.net/weixin_41975655/article/details/82887273
+
+DelayQueue的使用场景 https://www.cnblogs.com/shamo89/p/7055039.html
+
+Springboot整合Quartz  https://www.cnblogs.com/lic309/p/4089633.html
+（Job（excute，任务表示要执行的具体内容）、
+JobDetail（表示一个具体的可执行的调度程序，包含了这个任务调度的方案）
+（JobDetailFactoryBean、MethodInvokinngJobDetailFactoryBean）、
+（Trigger：触发器，执行任务的规则，比如每天、每小时等）
+（SimpleTrigger、CronTrigger（设置cron表达式：0 0 23 * * ？，表示每天23点的时候执行）、
+（Scheduler：任务调度，代表一个调度容器，在一个调度容器里面可以注册多个JobDetail和Trigger））
+
+
+消息中间件选型分析——从Kafka与RabbitMQ的对比来看全局 https://www.jianshu.com/p/8f7ebbcbeee5
+
+干货：这也许是最全面透彻的一篇RabbitMQ指南！ https://dbaplus.cn/news-141-1464-1.html
+(Exchanges（fanout、direct、topic、headers）、Queue、pc、binding、routing key)
+
+SpringBoot整合RabbitMQ事例 https://www.cnblogs.com/boshen-hzb/p/6841982.html
+
+RabbtiMq延时队列 https://blog.csdn.net/eumenides_/article/details/86025773
+
+SpringAMQP API文档 https://docs.spring.io/spring-amqp/docs/2.1.5.RELEASE/api/
+
+RabbitMQ API文档 https://rabbitmq.github.io/rabbitmq-java-client/api/4.x.x/
+
+RabbitMQ的事务和Confirmhttps://blog.csdn.net/u013256816/article/details/55515234
+
+SpringBoot整合RabbtiMQ的Confirm https://www.cnblogs.com/sky-chen/p/9817509.html
+
+RabbitMQ学习-vhost 详解https://blog.csdn.net/hqwang4/article/details/81706090
+
+rabbitmq基础学习+springboot结合rabbitmq实现回调确认confirm https://www.cnblogs.com/sky-chen/p/9817509.html
+
+RabbitMq消息持久化（SpringBoot默认情况下已经是持久化队列和消息的） https://blog.csdn.net/zunguitiancheng/article/details/81335737
+
+rabbitmq用户管理、角色管理与权限管理 https://www.cnblogs.com/java-zhao/p/5670476.html
+
+rabbitMQ之集群模式 https://blog.csdn.net/zhu_tianwei/article/details/40930305
+（普通模式，消息着存在一个节点，从其他节点拿的时候临时从存消息的节点中取）
+（镜像模式，消息可以根据策略同步存在不同的节点）
+
+认识JWT https://www.cnblogs.com/cjsblog/p/9277677.html
+
+10分钟了解JWT https://baijiahao.baidu.com/s?id=1608021814182894637&wfr=spider&for=pc
+（JWT由三部分组成：header.payload.signature,header中放了签名使用的算法，payload放了用户信息、失效时间等，
+前面两部分使用BASE64URL算法变成字符串，但是是可以被查看的，
+signature对上面的信息使用密钥进行加密，防止信息被篡改。）
+
+BASE64https://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000/001399413803339f4bbda5c01fc479cbea98b1387390748000
+(一种将任意二进制转为64字节的字符串的方法，具体做法是有一个64字符的数组，对要操作的二进制进行拆分组，
+每组对应的数字去找数组对应位置的字符，如果二进制不够分组则在后面补0，后面用=号表示补了多少个字节）
+
+ConcurrentHashMap源码分析 https://www.jianshu.com/p/f9b3e76951c2
+
+抽象类和接口的区别 https://www.cnblogs.com/dolphin0520/p/3811437.html
+
+如何保证redis里面都是热点数据？（lur淘汰策略） https://blog.csdn.net/u013308490/article/details/87737810
+
+分布式事务解决方案 https://blog.csdn.net/vvsuperman/article/details/78804302
+
+尽最大努力交付 https://blog.csdn.net/zsh2050/article/details/78034094
+
+分库分表的几种常见玩法 https://blog.csdn.net/dinglang_2009/article/details/53195835
+
+mycat配置 https://www.cnblogs.com/kevingrace/p/9365840.html
+
+ThreadLocal的内存泄漏问题（深度好文！） https://www.cnblogs.com/aspirant/p/8991010.html
+（ThreadLocalMap的key是弱引用，如果ThreadLocal被回收了，key为null，在set、get的时候发现key为null的会把value指向null，让value进行垃圾回收）
+（如果线程一直没有销毁，比如线程池的时候，而且也一直没有对ThreadLocalMap进行get、set操作，key为null的value就一直存在着，出现内存泄漏）
+
+Tomcat 类加载器之为何违背双亲委派模型 https://blog.csdn.net/dangwanma6489/article/details/80244981
+
+图解Tomcat类加载机制(阿里面试题) https://www.cnblogs.com/aspirant/p/8991830.html
+
+Mybatis工作原理https://blog.csdn.net/u014297148/article/details/78696096
+
+深入浅出soa https://www.cnblogs.com/renzhitian/p/6853289.html
+
+为什么concurrentHashMap要求value不能为null？）https://laiqitech.com/125/
+（如果value为null，get的时候得到一个null的值，我们没办法确定是key没有找到而返回null，还是value为null）
+（在hashMap的时候我们可以通过containsKey去判断，但在concurrentHashMap这种并发环境下，又会出现并发问题）
+（另外，doug lea 认为允许null是一种不好的设计，假如我们放入了一个不允许的null的value，（而因为某些错误放进了null）
+等到使用的时候，我们才能知道，报出nullPointerException）
+
+RBAC模式 https://www.sojson.com/blog/141.html
+
+Spring如何从WEB内部关闭容器 https://blog.csdn.net/jiewolf/article/details/78476537
+
+Mysql的join连接查询
+https://blog.csdn.net/qiushisoftware/article/details/80489128
+Mysql的外连接（左外连接、右外连接、全外连接（通过union左、右连接来做））（union查询结果不包含重复的行，unoin all重复的行不会合并）
+Mysql的内连接（结果中仅仅包含满足的条件的行）
+Mysql的交叉连接（左右表中任意元组的集合coross join）
+Mysql的自连接 （一个表内连接自己，用别名来区别）
+
+Springbot使用jetty https://blog.csdn.net/lzc4869/article/details/79817511
+
+Https详解 https://www.jianshu.com/p/304674bd0618
+
+linux内核-分配PID位图算法 http://emb.hqyj.com/Column/9232.html
+
+Spring加载多个配置文件 https://www.cnblogs.com/gexiaoshan/p/3566238.html
+
+Spring是如何加载xml文件的 https://blog.csdn.net/Mr_Hou2016/article/details/78626864
+
+SpringMvc和Mybatis整合需要配置的xml https://www.cnblogs.com/mrluotong/p/5898466.html
+
+Springboot多环境配置 https://blog.csdn.net/linzhiqiang0316/article/details/81541115
+（在主yml中通过 spring.profiles.active=‘环境的名称’）
+
+
+Session在禁用cookie的时候怎么url重写 https://blog.csdn.net/weixin_40648117/article/details/78844100
+（response.encodeURL）
+
+java中session什么时候会被创建https://blog.csdn.net/liang0000zai/article/details/51460005
+（调用request.getSession()的时候，如果没有session则会创建，在jsp中默认开启了<%@ page session="true"%>，所以访问jsp页面的时候就创建了session）
+
+Nginx安装 https://blog.csdn.net/qq_23832313/article/details/83578836#aptgetnginx_7
+
+Nginx配置 http://www.cnblogs.com/gmq-sh/p/5750833.html
+
+优雅关闭线程池 https://www.cnblogs.com/qingquanzi/p/9018627.html
+
+线程池的状态控制 https://www.jianshu.com/p/18065a78178b
+（tidying状态是在shutdown或stop后工作队列和任务队列为空的情况下会进入这个状态，然后执行terminated()方法变为TERMINATED结束态）
+
+支付系统转账过程中并发交易引起的分布式死锁问题 https://blog.csdn.net/claram/article/details/77853472（改变加锁的顺序）
+
+并发编程——ConcurrentHashMap#helpTransfer()分析 https://www.jianshu.com/p/39b747c99d32（sizeCtl状态，前16位是标识符，后16位是帮助扩容的线程数量）
+
+SSL/协议运行机制的概述 http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html
+
+支付系统转账过程中并发交易引起的分布式死锁问题 https://blog.csdn.net/claram/article/details/77853472
+
+解释型语言、编译型语言以及脚本语言 https://baijiahao.baidu.com/s?id=1594923752307906159&wfr=spider&for=pc
+（解释型语言：不需要编译，运行的时候需要一行一行翻译）
+
+字符串和编码 https://www.liaoxuefeng.com/wiki/1016959663602400/1017075323632896
+
+Docker镜像分层技术 http://www.maiziedu.com/wiki/cloud/dockerimage/
+
+Docker镜像分层技术 http://www.maiziedu.com/wiki/cloud/relationship/
+
+docker安装tomcat&部署javaweb程序 https://www.cnblogs.com/kaixinyufeng/p/9689982.html
+
+docker+idea http://www.pianshen.com/article/9204177268/
+
+IDEA+Docker大法 https://www.jianshu.com/p/d931e7f47966
+
+IntelliJ IDEA快速实现Docker镜像部署 https://cloud.tencent.com/developer/article/1370022
+
+spring boot 应用发布到 docker (完整版) https://blog.csdn.net/anxpp/article/details/73478883
+
+windows下nginx的安装及使用 https://www.cnblogs.com/jiangwangxiang/p/8481661.html
+
+Nginx配置详解 https://www.cnblogs.com/knowledgesea/p/5175711.html
+
+Spring cloud eureka 入门使用及指导说明（单机篇） https://blog.csdn.net/hh652400660/article/details/79474419
+
+maven学习（上）- 基本入门用法 https://www.cnblogs.com/yjmyzz/p/3495762.html
+（mvn archetype:generate构建一个maven项目、
+mvn clean compile编译、
+mvn clean test单元测试、
+mvn clean install把生成的jar包，安装到“本地仓库”、
+mvn clean pacakge打包war或jar包）
+maven学习（中）- 私服nexus搭建 https://www.cnblogs.com/yjmyzz/p/3519373.html
+maven学习（下）利用Profile构建不同环境的部署包 https://www.cnblogs.com/yjmyzz/p/3941043.html
+（profile的使用，maven package -P dev指定dev环境）
+maven更改镜像路径为阿里镜像，以便下载速度快 https://www.cnblogs.com/panxuejun/p/6140768.html
+
+并发编程网 Maven入门（一）http://ifeve.com/maven-1/
+并发编程网 Maven入门（二）http://ifeve.com/maven-2/
+
+Spring-data-jpa 学习笔记（一） https://www.cnblogs.com/zeng1994/p/7575606.html
+Spring-data-jpa 学习笔记（二） https://www.cnblogs.com/zeng1994/p/7627267.html
+Spring Data JPA 实例查询（example的使用） https://www.cnblogs.com/rulian/p/6533109.html
+spring boot 中使用 jpa以及jpa介绍 https://blog.csdn.net/wujiaqi0921/article/details/78789087
+SpringBoot实现OAuth2认证服务器 https://www.cnblogs.com/LOVE0612/p/9913336.html
+Spring Boot+Spring Security基于RBAC权限控制 https://blog.csdn.net/weixin_33819479/article/details/88178017
+springboot学习笔记-5 springboot整合shiro https://www.cnblogs.com/hlhdidi/p/6376457.html
+Shiro 中的 SecurityUtils https://www.jianshu.com/p/cf95e3468638
+
+shiro jwt 构建无状态分布式鉴权体系 https://wangjie2016.iteye.com/blog/2406870
+（解决微服务中认证鉴权问题，好文！！！）
+
+项目推荐 jsets-shiro-spring-boot-starter
+（springboot中使用shiro大都是通过shiro-spring.jar进行的整合的,虽然不是太复杂，但是也无法做到spring-boot-starter风格的开箱即用。
+项目中经常用到的功能比如：验证码、密码错误次数限制、账号唯一用户登陆、动态URL过滤规则、无状态鉴权等等，shiro还没有直接提供支持。
+jsets-shiro-spring-boot-starter对这些常用的功能进行了封装和自动导入，少量的配置就可以应用在项目中。）
+
+Swagger使用指南 https://blog.csdn.net/sanyaoxu_2/article/details/80555328
+基于HMAC的rest api鉴权处理 https://www.jianshu.com/p/b0a577708a7b
+【写法规范】-- 设计请求返回接口与封装 https://www.cnblogs.com/jsyllhb/p/10548169.html
+
+JPA中自动使用@Table(name = "userTab")后自动将表名、列名添加了下划线的问题 https://www.cnblogs.com/songxingzhu/p/9835683.html
+第二十章 无状态Web应用集成——《跟我学Shiro》https://jinnianshilongnian.iteye.com/blog/2041909
+
+【spring data jpa】spring data jpa 中的update 更新字段，如果原字段值为null不处理，不为null则在原来的值上加一段字符串 http://www.bubuko.com/infodetail-2653308.html
+MD5加密+加盐 
+SpringBoot+Shiro实现登陆拦截功能 https://www.cnblogs.com/peaceliu/p/7825706.html
+
+使用redis的list结构实现秒杀 https://my.oschina.net/chinaxy/blog/1829233
+
+springboot + swagger https://www.ibm.com/developerworks/cn/java/j-using-swagger-in-a-spring-boot-project/index.html
+
+ubuntu安装java8 sudo apt install openjdk-8-jdk 
+
+windows后台启动redis redis-server --service-start redis.windows-service.conf
+
+https://www.cnblogs.com/devise/p/10959885.html spring中实现基于注解实现动态的接口限流防刷
+（原理：redis记录用户请求次数，使用spring拦截器获得每个controller方法上面注解的调用次数限制，去redis获取调用次数进行比对）
+
+openJdk怎么设置java_home https://blog.csdn.net/redmoon729/article/details/51671354
+
+高并发下一些常用的限流和防刷举例 https://www.2cto.com/kf/201804/740024.html
+（nginx限流、令牌桶算法、漏桶算法、lua+redis）
+
+几种常见的限流算法 https://blog.csdn.net/linhui258/article/details/81155622
+
+死磕Ngix限流配置 https://www.cnblogs.com/biglittleant/p/8979915.html
+
+Nginx 限流 https://colobu.com/2015/10/26/nginx-limit-modules/
+
+nginx(四)高并发情况限流以及白名单配置 https://my.oschina.net/chenxiaobian/blog/888196
+
+Nginx限速模块初探 https://www.cnblogs.com/CarpenterLee/p/8084533.html
+
+【Nginx源码研究】nginx限流模块详解 https://segmentfault.com/a/1190000016509710
+(好文推荐)
+
+JMeter安装 https://www.cnblogs.com/wxh04/p/7754156.html
+使用Jmeter进行接口测试和压力测试的配置和使用 https://blog.csdn.net/m0_37529303/article/details/75453230
+
+react官方快速入门 https://react.docschina.org/docs/hello-world.html
+阮一峰react教程 http://www.ruanyifeng.com/blog/2015/03/react.html
+Redux入门1 http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
+RPC TAF（TARS） 框架 初学 https://blog.csdn.net/zhougb3/article/details/80403125
+(腾讯开源rpc框架)
+你应该知道的RPC原理 https://www.cnblogs.com/LBSer/p/4853234.html
+彻底理解Netty，这一篇文章就够了 - 掘金 https://juejin.im/post/5bdaf8ea6fb9a0227b02275a
+（感觉目前自己实力还不够，netty是必须要了解的，对看以后RPC框架有很大帮助）
+Spring Cloud源码分析（一）Eureka http://blog.didispace.com/springcloud-sourcecode-eureka/
+（eureka的服务注册、“服务获取”、“服务续约“，都是通过http的方式来做的，感觉性能上面没有rpc框架好）
+Spring Cloud源码分析（二）Ribbon http://blog.didispace.com/springcloud-sourcecode-ribbon/
+RedisTemple的pipeline的用法 https://www.jianshu.com/p/d5399fca2f72
+
+rabbitmq——用户管理 https://www.cnblogs.com/AloneSword/p/4200051.html
+
+Java8新特性--CompletableFuture https://www.cnblogs.com/kexianting/p/8692437.html
+（还不是很理解，待看）
+CompletableFuture基本用法 https://www.cnblogs.com/cjsblog/p/9267163.html
+Future模式之CompletableFuture https://www.liangzl.com/get-article-detail-97192.html
+Java 8 中的 Streams API 详解 https://www.ibm.com/developerworks/cn/java/j-lo-
+强大的Stream并行流_慕课手记 https://www.imooc.com/article/49318?block_id=tuijian_wz
+单点登录原理与简单实现 https://www.cnblogs.com/ywlaker/p/6113927.html
+Spring Security Oauth2 单点登录案例实现和执行流程剖析https://www.cnblogs.com/xifengxiaoma/p/10043173.html
+(深入源码的好文，认真看一遍，理解Spring Security OAuth2的认证授权流程！！！)
+
+深入聊聊微服务架构的身份认证问题
+ https://www.infoq.cn/article/identity-authentication-of-architecture-in-micro-service
+
+一个简单的SpringBootStarter https://juejin.im/entry/58d37630570c350058c2c15c
+
+java注解(四种元注解：@Retention @Target @Document @Inherited) - - ITeye博客 https://wisfly.iteye.com/blog/2289443
+
+https://blog.csdn.net/get_set/article/details/79466657 
+响应式Spring的道法术器（Spring WebFlux 教程）
+
+UBUNTU 查看 JAVA安装路径 https://blog.csdn.net/love_xiaozhao/article/details/48101463
+
+https://blog.csdn.net/qq_36148847/article/details/80114283 Windows 安装 ZooKeeper
+
+https://juejin.im/post/5bf3f15851882526a643e207 Redisson实现Redis分布式锁的底层原理
+
+
+springboot Jar包 秒部署到Linux服务器运行 https://blog.csdn.net/whh18254122507/article/details/78011713
+
+Zookeeper入门看这篇就够了 https://blog.csdn.net/java_66666/article/details/81015302
+（一个文件系统，客户端监听节点）
+利用Zookeeper实现 - 分布式锁 https://www.jianshu.com/p/a974eec257e6
+（Apache Curator是一个Zookeeper的开源客户端，它提供了Zookeeper各种应用场景（Recipe，如共享锁服务、master选举、分布式计数器等）的抽象封装）
+
+什么是拓扑排序 https://www.jianshu.com/p/b59db381561a
+（有向无序图遍历，使用邻接表的方式，记录入度为0的顶点，由于输出每个顶点的同时还要删除以它为起点的边，故上述拓扑排序的时间复杂度为O(V+E)）
