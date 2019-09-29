@@ -412,3 +412,6 @@ Zookeeper入门看这篇就够了 https://blog.csdn.net/java_66666/article/detai
 
 什么是拓扑排序 https://www.jianshu.com/p/b59db381561a
 （有向无序图遍历，使用邻接表的方式，记录入度为0的顶点，由于输出每个顶点的同时还要删除以它为起点的边，故上述拓扑排序的时间复杂度为O(V+E)）
+
+git神器sourceTree的使用 https://juejin.im/post/5af91d62f265da0b7c076269
+(最近工作中经常使用该工具，要注意拉取（pull=fetch+merge）和获取（fetch）的区别)
