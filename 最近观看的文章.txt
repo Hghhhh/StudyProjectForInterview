@@ -415,3 +415,5 @@ Zookeeper入门看这篇就够了 https://blog.csdn.net/java_66666/article/detai
 
 git神器sourceTree的使用 https://juejin.im/post/5af91d62f265da0b7c076269
 (最近工作中经常使用该工具，要注意拉取（pull=fetch+merge）和获取（fetch）的区别)
+
+对tomcat来说，每一个进来的请求(request)都需要一个线程，直到该请求结束。 https://www.cnblogs.com/softidea/p/5750791.html
