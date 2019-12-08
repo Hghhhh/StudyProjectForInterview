@@ -420,4 +420,7 @@ git神器sourceTree的使用 https://juejin.im/post/5af91d62f265da0b7c076269
 
 深入理解Spring的异步机制 https://www.cnblogs.com/niechen/p/9232914.html（创建线程池，使用@Asnc注解方法，会给该方法加上通知，交由线程池执行）
 
-servlet3异步原理与实践 https://blog.csdn.net/wangxindong11/article/details/78591396（servlet3.0 nio+异步机制；servlet3.1 增加非阻塞，使用jdk的事件监听机制来实现）
+servlet3异步原理与实践 https://blog.csdn.net/wangxindong11/article/details/78591396（servlet3.0 异步机制，接收到请求后放到业务池处理；servlet3.1 增加非阻塞，使用jdk的事件监听机制来实现）
+
+Netty和Tomcat的区别、性能对比 https://www.cnblogs.com/pangguoming/p/9353536.html （有人说netty的性能就一定比tomcat性能高，其实不然，tomcat从6.x开始就支持了nio模式，并且后续还有arp模式——一种通过jni调用apache网络库的模式，相比于旧的bio模式，并发性能得到了很大提高，特别是arp模式，而netty是否比tomcat性能更高，则要取决于netty程序作者的技术实力了）
+
