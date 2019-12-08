@@ -419,3 +419,5 @@ git神器sourceTree的使用 https://juejin.im/post/5af91d62f265da0b7c076269
 对tomcat来说，每一个进来的请求(request)都需要一个线程，直到该请求结束。 https://www.cnblogs.com/softidea/p/5750791.html
 
 深入理解Spring的异步机制 https://www.cnblogs.com/niechen/p/9232914.html（创建线程池，使用@Asnc注解方法，会给该方法加上通知，交由线程池执行）
+
+servlet3异步原理与实践 https://blog.csdn.net/wangxindong11/article/details/78591396（servlet3.0 nio机制；servlet3.1 增加异步，使用jdk的事件监听机制来实现）
