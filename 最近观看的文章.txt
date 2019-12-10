@@ -428,3 +428,4 @@ Netty和Tomcat的区别、性能对比 https://www.cnblogs.com/pangguoming/p/935
 
 为什么建议 Netty 的 I/O 线程与业务线程分离 https://blog.csdn.net/x5fnncxzq4/article/details/82977562（1、io线程聚合了Selector，创建代价大 2、线程池太大的话队列的锁争用加大 3、故障隔离）
 
+Netty 那些事儿 ——— 关于 “Netty 发送大数据包时 触发写空闲超时” 的一些思考 https://cloud.tencent.com/developer/article/1152654
