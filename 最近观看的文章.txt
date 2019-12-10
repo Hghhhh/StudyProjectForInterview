@@ -424,3 +424,5 @@ servlet3异步原理与实践 https://blog.csdn.net/wangxindong11/article/detail
 
 Netty和Tomcat的区别、性能对比 https://www.cnblogs.com/pangguoming/p/9353536.html （有人说netty的性能就一定比tomcat性能高，其实不然，tomcat从6.x开始就支持了nio模式，并且后续还有arp模式——一种通过jni调用apache网络库的模式，相比于旧的bio模式，并发性能得到了很大提高，特别是arp模式，而netty是否比tomcat性能更高，则要取决于netty程序作者的技术实力了）
 
+深入springboot原理——一步步分析springboot启动机制（starter机制） https://www.cnblogs.com/chongaizhen/p/11151892.html （看完对springboot的加载start里面的bean有了更多了解）
+
