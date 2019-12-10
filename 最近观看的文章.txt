@@ -431,3 +431,5 @@ Netty和Tomcat的区别、性能对比 https://www.cnblogs.com/pangguoming/p/935
 Netty 那些事儿 ——— 关于 “Netty 发送大数据包时 触发写空闲超时” 的一些思考 https://cloud.tencent.com/developer/article/1152654
 
 Netty 源码解析 ——— writeAndFlush流程分析 https://www.jianshu.com/p/a3443cacd081
+
+https://www.cnblogs.com/morethink/p/9787313.html Netty接收HTTP文件上传及文件下载
