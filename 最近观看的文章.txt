@@ -433,3 +433,5 @@ Netty 那些事儿 ——— 关于 “Netty 发送大数据包时 触发写空�
 Netty 源码解析 ——— writeAndFlush流程分析 https://www.jianshu.com/p/a3443cacd081
 
 https://www.cnblogs.com/morethink/p/9787313.html Netty接收HTTP文件上传及文件下载
+
+https://www.jianshu.com/p/447c2431ac32 Netty 之 FileRegion 文件传输（nio零拷贝，直接写入socketChannel（每次写入的是当前可写的字节数））
