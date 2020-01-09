@@ -438,3 +438,4 @@ https://www.jianshu.com/p/447c2431ac32 Netty 之 FileRegion 文件传输（nio�
 
 IOCP 浅析 https://www.ibm.com/developerworks/cn/java/j-lo-iocp/#author （java中aio的实现，AsyncronousChannel）
  
+https://blog.csdn.net/LightOfMiracle/article/details/80594795 Spring Boot Actutor注解方式自定义Endpoint
